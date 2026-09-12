@@ -29,8 +29,9 @@ Exactly: `config/`, `data/`, `domain/`, `page/`.
 
 ## Signed-off pilot
 
-`apps/internal-app/src/app/feature/finance/donation/` is the reference consumer.
-Cursor rules and the migrate skill treat it as authoritative for new migrations.
+The signed-off reference consumer lives in the frontend application repo
+(`feature/finance/donation/`), not in this libraries repo. Cursor rules in that
+app treat it as authoritative for new list-dashboard features.
 
 ## Non-authoritative
 

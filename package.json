@@ -21,6 +21,7 @@
     "changeset:status": "changeset status",
     "version-packages": "changeset version && npm install",
     "release": "turbo run build --filter=./packages/* && changeset publish",
+    "release:beta": "turbo run build --filter=./packages/* && changeset publish --tag beta",
     "start:dev": "start npm run watch:packages && start npm run dev --workspace=apps/public-site && npm run dev --workspace=apps/internal-app"
   },
   "devDependencies": {

@@ -1,9 +1,11 @@
+# Changesets npm publish via deploy-platform reusable-ci-publish.yml
+# (this workspace’s deploy-main repo).
+
 name: Release
 
 on:
   push:
-    branches:
-      - main
+    branches: [main, stage]
 
 concurrency:
   group: release-${{ github.ref }}
@@ -14,40 +16,16 @@ permissions:
   pull-requests: write
 
 jobs:
-  create_release:
-    name: Create Tag and Release
-    uses: nabarun-ngo/ngo-nabarun-templates/.github/workflows/Create-Tag-Release.yml@main
+  publish:
+    uses: nabarun-ngo/deploy-platform/.github/workflows/reusable-ci-publish.yml@main
     with:
-     source_branch: ${{ github.base_ref }}
-     
-  publish_packages:
-    name: Version and publish packages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          registry-url: https://registry.npmjs.org
-          scope: '@web-toolkit'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Create release pull request or publish
-        uses: changesets/action@v1
-        with:
-          version: npm run version-packages
-          publish: npm run release
-          commit: 'chore: version packages'
-          title: 'chore: version packages'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      node_version: '22'
+      working_directory: '.'
+      npm_scope: '@web-toolkit'
+      version_command: 'npm run version-packages'
+      publish_to_npm: true
+      publish_command: ${{ github.ref_name == 'main' && 'npm run release' || 'npm run release:beta' }}
+      create_tags_and_releases: false
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

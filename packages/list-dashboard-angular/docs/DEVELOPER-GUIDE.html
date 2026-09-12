@@ -334,16 +334,15 @@
         </p>
         <div class="callout">
           <strong>Signed-off pilot:</strong>
-          <code>apps/internal-app/src/app/feature/finance/donation/</code>
+          <code>feature/finance/donation/</code> in the consuming frontend app
           — copy this four-folder layout (<code>config/</code>, <code>data/</code>, <code>domain/</code>, <code>page/</code>)
-          when migrating other entities. Bind <code>ListDashboardConfig</code> to <code>&lt;na-list-dashboard&gt;</code>.
-          See <code>.cursor/rules/reusable-first-migrations.mdc</code>.
+          when adding other entities. Bind <code>ListDashboardConfig</code> to <code>&lt;na-list-dashboard&gt;</code>.
         </div>
         <div class="callout">
           <strong>Source of truth:</strong>
           <code>@web-toolkit/list-dashboard-angular</code> (UI) and
           <code>@web-toolkit/list-dashboard-core</code> (types/configs)<br />
-          Import from the Angular package in internal-app; core types are also exported for convenience.
+          Import from the Angular package in the host app; core types are also exported for convenience.
         </div>
         <p>Domain code supplies <em>pure TypeScript config factories</em>. Shared controllers and components handle state, URL sync, and UI.</p>
         <table>
@@ -982,8 +981,7 @@ customSteps: { upi: { rendererKey: <span class="str">'upiRows'</span> } }
           <li>Pilot module: <code>feature/finance/donation/</code> (<code>config/</code>, <code>data/</code>, <code>domain/</code>, <code>page/</code>)</li>
           <li>Config factory: <code>feature/finance/donation/config/donation.config.ts</code> → <code>createDonationListConfig</code></li>
           <li>Page host: <code>feature/finance/donation/page/donation-dashboard.component.*</code></li>
-          <li>Cursor rule: <code>.cursor/rules/reusable-first-migrations.mdc</code></li>
-          <li>App docs: <code>apps/internal-app/docs/README.md</code></li>
+          <li>Cursor rule (in the consuming app): <code>.cursor/rules/reusable-first-migrations.mdc</code></li>
           <li>Core ADR / tokens: <code>packages/list-dashboard-core/docs/</code></li>
         </ul>
       </section>
@@ -1051,7 +1049,6 @@ customSteps: { upi: { rendererKey: <span class="str">'upiRows'</span> } }
 
       <footer>
         Universal List Dashboard Developer Guide ·
-        Generated for internal-app ·
         Open this file in a browser: <code>packages/list-dashboard-angular/docs/DEVELOPER-GUIDE.html</code>
       </footer>
     </main>

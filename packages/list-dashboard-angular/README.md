@@ -3,6 +3,14 @@
 Angular host for config-driven list dashboards (list + chips + filters + detail +
 create + bulk edit + preparation + declarative actions).
 
+## Install
+
+```bash
+npm install @web-toolkit/list-dashboard-core @web-toolkit/list-dashboard-angular @web-toolkit/forms-core @web-toolkit/forms-angular
+```
+
+**Peers:** Angular `^19 || ^20 || ^21` (`animations`, `cdk`, `common`, `core`, `forms`, `material`, `router`) plus the forms and list-dashboard-core packages.
+
 ## Setup
 
 ```typescript
@@ -64,4 +72,6 @@ invoke `config.operations[linkId]`.
 ## Docs
 
 - [Developer guide](./docs/DEVELOPER-GUIDE.html) (open in a browser)
-- Core ADR & tokens: `@web-toolkit/list-dashboard-core` → `docs/`
+- [Core package](../list-dashboard-core/README.md) (ADR and tokens)
+
+Overview: [root README](../../README.md).
