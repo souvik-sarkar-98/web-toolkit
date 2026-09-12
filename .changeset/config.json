@@ -27,7 +27,6 @@
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": [
-    "@web-toolkit/public-site",
-    "@web-toolkit/internal-app"
+  
   ]
 }
