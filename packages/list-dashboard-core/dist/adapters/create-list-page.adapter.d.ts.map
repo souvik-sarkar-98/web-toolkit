@@ -1,0 +1,1 @@
+{"version":3,"file":"create-list-page.adapter.d.ts","sourceRoot":"","sources":["../../src/adapters/create-list-page.adapter.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,kCAAkC,CAAC;AAC3E,OAAO,EACL,yBAAyB,EACzB,sBAAsB,EAEvB,MAAM,wCAAwC,CAAC;AAKhD,wBAAgB,qBAAqB,CAAC,SAAS,SAAS,kBAAkB,EACxE,MAAM,EAAE,sBAAsB,CAAC,SAAS,CAAC,GACxC,yBAAyB,CAAC,SAAS,CAAC,CA4FtC"}

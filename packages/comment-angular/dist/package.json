@@ -1,0 +1,35 @@
+{
+  "name": "@web-toolkit/comment-angular",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.0.0 || ^20.0.0 || ^21.0.0",
+    "@angular/core": "^19.0.0 || ^20.0.0 || ^21.0.0",
+    "@angular/forms": "^19.0.0 || ^20.0.0 || ^21.0.0"
+  },
+  "dependencies": {
+    "@web-toolkit/comment-core": "*",
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "main": "./dist/fesm2022/web-toolkit-comment-angular.mjs",
+  "types": "./dist/types/web-toolkit-comment-angular.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/web-toolkit-comment-angular.d.ts",
+      "default": "./fesm2022/web-toolkit-comment-angular.mjs"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    }
+  },
+  "module": "fesm2022/web-toolkit-comment-angular.mjs",
+  "typings": "types/web-toolkit-comment-angular.d.ts",
+  "type": "module"
+}

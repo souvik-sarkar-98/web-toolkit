@@ -1,0 +1,44 @@
+{
+  "name": "@web-toolkit/auth-angular",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.0.0 || ^20.0.0 || ^21.0.0",
+    "@angular/core": "^19.0.0 || ^20.0.0 || ^21.0.0",
+    "@angular/router": "^19.0.0 || ^20.0.0 || ^21.0.0",
+    "rxjs": "^7.0.0"
+  },
+  "dependencies": {
+    "@web-toolkit/auth-core": "*",
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "main": "./dist/fesm2022/web-toolkit-auth-angular.mjs",
+  "types": "./dist/types/web-toolkit-auth-angular.d.ts",
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "lint": "tsc --noEmit -p tsconfig.lib.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@angular/common": "^21.2.19",
+    "@angular/compiler": "^21.2.19",
+    "@angular/compiler-cli": "^21.2.19",
+    "@angular/core": "^21.2.19",
+    "@angular/platform-browser": "^21.2.19",
+    "@angular/router": "^21.2.19",
+    "@web-toolkit/auth-core": "*",
+    "jsdom": "^26.1.0",
+    "ng-packagr": "^21.2.0",
+    "rxjs": "^7.4.0",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4",
+    "zone.js": "~0.15.1"
+  }
+}

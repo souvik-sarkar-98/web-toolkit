@@ -1,0 +1,2 @@
+export { MENTION_TOKEN_REGEX, buildCommentEditorValue, contentToEditableText, deduplicateMentions, editableTextToContent, getActiveMentionQuery, insertMentionInEditableText, mentionToken, parseContentSegments, parseMentionedUserIds, syncMentionsWithContent, toCreateCommentPayload, toUpdateCommentPayload, } from './mention-tokens.js';
+//# sourceMappingURL=index.js.map
