@@ -1,1 +1,0 @@
-{"version":3,"file":"auth-user.model.d.ts","sourceRoot":"","sources":["../src/auth-user.model.ts"],"names":[],"mappings":"AAAA,uEAAuE;AACvE,MAAM,WAAW,QAAQ;IACvB,GAAG,EAAE,MAAM,CAAC;IACZ,KAAK,EAAE,MAAM,CAAC;IACd,cAAc,EAAE,OAAO,CAAC;IACxB,IAAI,EAAE,MAAM,CAAC;IACb,UAAU,EAAE,MAAM,CAAC;IACnB,WAAW,EAAE,MAAM,CAAC;IACpB,QAAQ,EAAE,MAAM,CAAC;IACjB,OAAO,EAAE,MAAM,CAAC;CACjB"}

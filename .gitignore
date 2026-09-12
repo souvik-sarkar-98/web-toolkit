@@ -48,3 +48,6 @@ next-env.d.ts
 
 # Cursor hook runtime (workspace hooks live at integrated/.cursor/hooks; never commit state)
 .cursor/hooks/
+.dist
+dist/
+packages/*/dist

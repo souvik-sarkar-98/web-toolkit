@@ -11,8 +11,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "clean:generated": "node scripts/clean-generated.mjs --keep-node-modules",
-    "clean:reset": "node scripts/clean-generated.mjs",
+    "clean": "turbo run clean && rimraf .turbo",
     "lint": "turbo run lint",
     "type-check": "turbo run lint",
     "test": "turbo run test",
