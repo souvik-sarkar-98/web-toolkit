@@ -1,4 +1,4 @@
-import { baseField } from '@web-toolkit/forms-core';
+import { baseField } from '@ssweb-toolkit/forms-core';
 /**
  * Creates a reusable action-form preview for reviewing and editing generated
  * text before handing it to a channel-specific submit callback.

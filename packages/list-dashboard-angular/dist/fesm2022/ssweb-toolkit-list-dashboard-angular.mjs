@@ -1,14 +1,14 @@
-import { parseBooleanQueryParam, parseStringQueryParam, parseCsvQueryParam, formatCsvQueryParam, valuesEqual, createListPageAdapter, createDetailPageAdapter, ListFormResolver, resolveListDashboardConfig, compileListDashboardConfig, ListPreparationRunner } from '@web-toolkit/list-dashboard-core';
-export * from '@web-toolkit/list-dashboard-core';
-export { readRouteRefData } from '@web-toolkit/list-dashboard-core';
+import { parseBooleanQueryParam, parseStringQueryParam, parseCsvQueryParam, formatCsvQueryParam, valuesEqual, createListPageAdapter, createDetailPageAdapter, ListFormResolver, resolveListDashboardConfig, compileListDashboardConfig, ListPreparationRunner } from '@ssweb-toolkit/list-dashboard-core';
+export * from '@ssweb-toolkit/list-dashboard-core';
+export { readRouteRefData } from '@ssweb-toolkit/list-dashboard-core';
 import * as i0 from '@angular/core';
 import { EventEmitter, Output, Input, Component, Directive, TemplateRef, HostListener, ContentChild, ViewChild, InjectionToken, Inject, ViewContainerRef, Optional, NgModule, Injectable } from '@angular/core';
 import * as i1 from '@angular/common';
 import { CommonModule, NgComponentOutlet } from '@angular/common';
 import * as i2 from '@angular/material/checkbox';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import * as i2$1 from '@web-toolkit/forms-angular';
-import { CfFormComponent, CfFormStepperComponent, CfFormStepperStepDirective } from '@web-toolkit/forms-angular';
+import * as i2$1 from '@ssweb-toolkit/forms-angular';
+import { CfFormComponent, CfFormStepperComponent, CfFormStepperStepDirective } from '@ssweb-toolkit/forms-angular';
 import { Subscription, catchError, of, isObservable, tap } from 'rxjs';
 import * as i5 from '@angular/material/icon';
 import { MatIconModule } from '@angular/material/icon';
@@ -4011,4 +4011,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "21.2.21", ngImpo
  */
 
 export { AppliedFilterPillsComponent, BulkEditPageController, ChipFilterBarComponent, DynamicFileUploadComponent, FilteredInfiniteListComponent, FilteredListDashboardController, FilteredListPageComponent, FilteredListPageController, InfiniteListRowComponent, InfiniteScrollSentinelDirective, LIST_BULK_EDIT_FORM_ID, LIST_DETAIL_EDIT_FORM_ID, LIST_FORM_CUSTOM_STEP_RENDERERS, ListActionFormController, ListBulkActionsDirective, ListCreatePageController, ListCreateRouteSync, ListCreateSheetComponent, ListCreateStepperSheetComponent, ListDashboardComponent, ListDashboardRuntime, ListDetailFooterActionsDirective, ListDetailHeroDirective, ListDetailPageController, ListDetailRouteSync, ListDetailSectionsComponent, ListDetailSheetComponent, ListDetailViewExtrasDirective, ListFilterSheetComponent, ListFilterToolbarComponent, ListFloatingActionsDirective, ListFormCache, ListFormCustomStepHostComponent, ListCreateStepperSheetComponent as ListFormStepperSheetComponent, ListOverlayDirective, ListPreparationService, ListRouteSync, ListRowCardComponent, ListRowTemplateDirective, MobileFormSheetComponent, ULD_DOCUMENT_LIST, ULD_FILE_UPLOAD, ULD_ROOT_CONFIG, UniversalListDashboardModule, buildCreateRouteQuery, isCreateActionOpen, provideListFormCustomStepRenderer, setMobileSheetOpen, toListRowLinkEvent, trackByIndex };
-//# sourceMappingURL=web-toolkit-list-dashboard-angular.mjs.map
+//# sourceMappingURL=ssweb-toolkit-list-dashboard-angular.mjs.map

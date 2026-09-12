@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { normalizeFieldValidationRules } from '@web-toolkit/forms-core';
+import { normalizeFieldValidationRules } from '@ssweb-toolkit/forms-core';
 function applyValidationRules(fieldSchema, field) {
     const rules = normalizeFieldValidationRules(field.validationRules);
     let schema = fieldSchema;

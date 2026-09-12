@@ -1,6 +1,6 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useCallback, useMemo, useRef, useState, } from 'react';
-import { buildCommentEditorValue, contentToEditableText, deduplicateMentions, insertMentionInEditableText, } from '@web-toolkit/comment-core';
+import { buildCommentEditorValue, contentToEditableText, deduplicateMentions, insertMentionInEditableText, } from '@ssweb-toolkit/comment-core';
 import { CommentContent } from './CommentContent.js';
 import { syncTextareaCursor, useMentionAutocomplete } from './useMentionAutocomplete.js';
 export function MentionCommentEditor({ value, onChange, searchUsers, minMentionQueryLength = 1, showPreview = false, classNames, mentionListLabel = 'Mention suggestions', placeholder = 'Write a comment… Use @ to mention someone', rows = 4, ...textareaProps }) {

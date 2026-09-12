@@ -1,4 +1,4 @@
-import { type FieldOption, type FormDefinition, type FormValues } from '@web-toolkit/forms-core';
+import { type FieldOption, type FormDefinition, type FormValues } from '@ssweb-toolkit/forms-core';
 export interface ListFormContext<TEntity = unknown> {
     dashboardId?: string;
     /** @deprecated Use dashboardId for new list-dashboard consumers. */

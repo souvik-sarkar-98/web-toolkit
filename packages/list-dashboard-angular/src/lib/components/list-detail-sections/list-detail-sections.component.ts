@@ -5,7 +5,7 @@ import {
   ListDetailItemListSection,
   ListDetailKeyValueSection,
   ListDetailSection,
-} from '@web-toolkit/list-dashboard-core';
+} from '@ssweb-toolkit/list-dashboard-core';
 import { ULD_DOCUMENT_LIST, UldDocumentListComponent } from '../../tokens';
 
 @Component({

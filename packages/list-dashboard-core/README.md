@@ -1,4 +1,4 @@
-# @web-toolkit/list-dashboard-core
+# @ssweb-toolkit/list-dashboard-core
 
 Framework-agnostic types, configs, adapters, form/preparation runtime, and
 route-query utilities for the Universal List Dashboard.
@@ -6,10 +6,10 @@ route-query utilities for the Universal List Dashboard.
 ## Install
 
 ```bash
-npm install @web-toolkit/forms-core @web-toolkit/list-dashboard-core
+npm install @ssweb-toolkit/forms-core @ssweb-toolkit/list-dashboard-core
 ```
 
-Depends on `@web-toolkit/forms-core` for form definitions used in list create/edit/filter.
+Depends on `@ssweb-toolkit/forms-core` for form definitions used in list create/edit/filter.
 
 ## Exports
 
@@ -24,21 +24,21 @@ Depends on `@web-toolkit/forms-core` for form definitions used in list create/ed
 ## Consumer contract
 
 Install from npm, or use workspace versions in this monorepo. Feature authors write one `ListDashboardConfig` and pass it to
-`<na-list-dashboard>` in `@web-toolkit/list-dashboard-angular`.
+`<na-list-dashboard>` in `@ssweb-toolkit/list-dashboard-angular`.
 
 Nested collections use `type: 'item_list'` sections — not host forRoot widgets.
 
 ## Build
 
 ```bash
-npm run build -w @web-toolkit/list-dashboard-core
-npm test -w @web-toolkit/list-dashboard-core
+npm run build -w @ssweb-toolkit/list-dashboard-core
+npm test -w @ssweb-toolkit/list-dashboard-core
 ```
 
 ## Consumers
 
-- [`@web-toolkit/list-dashboard-angular`](../list-dashboard-angular/README.md) — Angular host
-- `@web-toolkit/list-dashboard-react` — planned
+- [`@ssweb-toolkit/list-dashboard-angular`](../list-dashboard-angular/README.md) — Angular host
+- `@ssweb-toolkit/list-dashboard-react` — planned
 
 Host applications (separate repos) import the core types and pass a compiled `ListDashboardConfig` into the Angular host.
 

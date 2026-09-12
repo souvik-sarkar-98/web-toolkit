@@ -1,4 +1,4 @@
-import { fromPublicFormDefinition, } from '@web-toolkit/forms-core';
+import { fromPublicFormDefinition, } from '@ssweb-toolkit/forms-core';
 function resolveLocal(source, context) {
     if (source.build)
         return source.build(context);

@@ -1,11 +1,11 @@
-# `@web-toolkit/comment-react`
+# `@ssweb-toolkit/comment-react`
 
-React textarea editor and read-only mention rendering on top of `@web-toolkit/comment-core`.
+React textarea editor and read-only mention rendering on top of `@ssweb-toolkit/comment-core`.
 
 ## Install
 
 ```bash
-npm install @web-toolkit/comment-core @web-toolkit/comment-react
+npm install @ssweb-toolkit/comment-core @ssweb-toolkit/comment-react
 ```
 
 **Peers:** `react` and `react-dom` (^18 or ^19).
@@ -21,8 +21,8 @@ npm install @web-toolkit/comment-core @web-toolkit/comment-react
 ## Usage
 
 ```tsx
-import { MentionCommentEditor, CommentContent } from '@web-toolkit/comment-react';
-import { buildCommentEditorValue } from '@web-toolkit/comment-core';
+import { MentionCommentEditor, CommentContent } from '@ssweb-toolkit/comment-react';
+import { buildCommentEditorValue } from '@ssweb-toolkit/comment-core';
 
 <MentionCommentEditor
   value={value}
@@ -39,7 +39,7 @@ Style via `classNames` (`root`, `textarea`, `mentionList`, `mentionOption`, `pre
 ## Build (this repo)
 
 ```bash
-npm run build -w @web-toolkit/comment-react
+npm run build -w @ssweb-toolkit/comment-react
 ```
 
 Fixed version group with `comment-core` and `comment-angular`. Overview: [root README](../../README.md).

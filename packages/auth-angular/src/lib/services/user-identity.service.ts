@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { filter, firstValueFrom, map } from 'rxjs';
-import { AuthUser, RbacUserAccessSnapshot } from '@web-toolkit/auth-core';
+import { AuthUser, RbacUserAccessSnapshot } from '@ssweb-toolkit/auth-core';
 import { PlatformAuthService, LoginType } from './platform-auth.service';
 import { AuthorizationService } from './authorization.service';
 

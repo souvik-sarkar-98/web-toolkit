@@ -1,5 +1,5 @@
 import { type TextareaHTMLAttributes } from 'react';
-import type { CommentEditorValue, MentionUserSearch } from '@web-toolkit/comment-core';
+import type { CommentEditorValue, MentionUserSearch } from '@ssweb-toolkit/comment-core';
 export interface MentionCommentEditorClassNames {
     root?: string;
     textarea?: string;

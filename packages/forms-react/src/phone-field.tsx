@@ -1,12 +1,12 @@
 'use client';
 
 import type { ReactElement } from 'react';
-import type { FormEngineOptions } from '@web-toolkit/forms-core';
+import type { FormEngineOptions } from '@ssweb-toolkit/forms-core';
 import {
   formatPhoneFieldValue,
   parsePhoneFieldValue,
   resolvePhoneCountryCodeOptions,
-} from '@web-toolkit/forms-core';
+} from '@ssweb-toolkit/forms-core';
 import type { FieldRenderProps } from './types.js';
 
 export interface PhoneFieldClassNames {

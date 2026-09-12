@@ -2,7 +2,7 @@ import * as i0 from '@angular/core';
 import { EventEmitter, ViewChild, Output, Input, Component, Injectable, InjectionToken, Optional, Inject, Directive, ContentChildren, makeEnvironmentProviders } from '@angular/core';
 import * as i2$1 from '@angular/material/button';
 import { MatButtonModule } from '@angular/material/button';
-import { resolvePhoneCountryCodeOptions, parsePhoneFieldValue, isDateRangeValue, formatPhoneFieldValue, formatIsoDate, mergeDateRangePart, resolveEffectiveDateBounds, hasDateConstraints, createDatePickerFilter, parseIsoDate, FormEngine } from '@web-toolkit/forms-core';
+import { resolvePhoneCountryCodeOptions, parsePhoneFieldValue, isDateRangeValue, formatPhoneFieldValue, formatIsoDate, mergeDateRangePart, resolveEffectiveDateBounds, hasDateConstraints, createDatePickerFilter, parseIsoDate, FormEngine } from '@ssweb-toolkit/forms-core';
 import { NgClass, NgTemplateOutlet } from '@angular/common';
 import * as i1 from '@angular/forms';
 import { FormsModule } from '@angular/forms';
@@ -2085,4 +2085,4 @@ function provideCfFormMaterial() {
  */
 
 export { CF_FORM_CLASS_NAMES, CUSTOM_FORM_FIELD_RENDERERS, CfFieldComponent, CfFormComponent, CfFormStepperComponent, CfFormStepperStepDirective, FormEngineService, provideCfFormMaterial };
-//# sourceMappingURL=web-toolkit-forms-angular.mjs.map
+//# sourceMappingURL=ssweb-toolkit-forms-angular.mjs.map

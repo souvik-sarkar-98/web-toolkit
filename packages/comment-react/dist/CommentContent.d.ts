@@ -1,4 +1,4 @@
-import type { CommentMentionSummary } from '@web-toolkit/comment-core';
+import type { CommentMentionSummary } from '@ssweb-toolkit/comment-core';
 export interface CommentContentClassNames {
     root?: string;
     mention?: string;

@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import type { FormDefinition } from '@web-toolkit/forms-core';
+import type { FormDefinition } from '@ssweb-toolkit/forms-core';
 import {
   ListFormResolutionError,
   ListFormResolver,

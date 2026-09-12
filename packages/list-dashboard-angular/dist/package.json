@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/list-dashboard-angular",
+  "name": "@ssweb-toolkit/list-dashboard-angular",
   "version": "0.1.0",
   "files": [
     "dist"
@@ -16,27 +16,27 @@
     "@angular/forms": "^19.0.0 || ^20.0.0 || ^21.0.0",
     "@angular/material": "^19.0.0 || ^20.0.0 || ^21.0.0",
     "@angular/router": "^19.0.0 || ^20.0.0 || ^21.0.0",
-    "@web-toolkit/forms-angular": "*",
-    "@web-toolkit/forms-core": "*",
-    "@web-toolkit/list-dashboard-core": "*"
+    "@ssweb-toolkit/forms-angular": "*",
+    "@ssweb-toolkit/forms-core": "*",
+    "@ssweb-toolkit/list-dashboard-core": "*"
   },
   "dependencies": {
-    "@web-toolkit/list-dashboard-core": "*",
+    "@ssweb-toolkit/list-dashboard-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/web-toolkit-list-dashboard-angular.mjs",
-  "types": "./dist/types/web-toolkit-list-dashboard-angular.d.ts",
+  "main": "./dist/fesm2022/ssweb-toolkit-list-dashboard-angular.mjs",
+  "types": "./dist/types/ssweb-toolkit-list-dashboard-angular.d.ts",
   "exports": {
     ".": {
-      "types": "./types/web-toolkit-list-dashboard-angular.d.ts",
-      "default": "./fesm2022/web-toolkit-list-dashboard-angular.mjs"
+      "types": "./types/ssweb-toolkit-list-dashboard-angular.d.ts",
+      "default": "./fesm2022/ssweb-toolkit-list-dashboard-angular.mjs"
     },
     "./package.json": {
       "default": "./package.json"
     }
   },
-  "module": "fesm2022/web-toolkit-list-dashboard-angular.mjs",
-  "typings": "types/web-toolkit-list-dashboard-angular.d.ts",
+  "module": "fesm2022/ssweb-toolkit-list-dashboard-angular.mjs",
+  "typings": "types/ssweb-toolkit-list-dashboard-angular.d.ts",
   "type": "module"
 }

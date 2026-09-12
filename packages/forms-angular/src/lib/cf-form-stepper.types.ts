@@ -1,4 +1,4 @@
-import type { FormDefinition, FormEngineOptions, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
 
 export interface CfFormStepperStep<T extends string = string> {
   id: T;

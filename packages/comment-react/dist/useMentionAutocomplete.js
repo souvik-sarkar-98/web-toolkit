@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useId, useRef, useState, } from 'react';
-import { getActiveMentionQuery } from '@web-toolkit/comment-core';
+import { getActiveMentionQuery } from '@ssweb-toolkit/comment-core';
 export function useMentionAutocomplete(options, onSelect) {
     const { editableText, cursor, searchUsers, minQueryLength = 0, debounceMs = 200 } = options;
     const listboxId = useId();

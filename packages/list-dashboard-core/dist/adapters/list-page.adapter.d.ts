@@ -1,5 +1,5 @@
 import type { Observable } from 'rxjs';
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
 import type { RefDataMap } from '../types/ref-data.js';
 import { AppliedListFilter, ChipFilter, InfiniteListPage, InfiniteListQuery, ListFilterCriteria, ListRowItem } from '../models/infinite-list.model.js';
 import type { ListRouteState } from '../types/route.js';

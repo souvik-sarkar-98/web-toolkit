@@ -1,5 +1,5 @@
 import { InjectionToken, Type } from '@angular/core';
-import type { CustomFieldType } from '@web-toolkit/forms-core';
+import type { CustomFieldType } from '@ssweb-toolkit/forms-core';
 
 export interface CfFormClassNames {
   root?: string;

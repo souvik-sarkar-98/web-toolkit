@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/auth-angular",
+  "name": "@ssweb-toolkit/auth-angular",
   "version": "0.1.0",
   "files": [
     "dist"
@@ -15,21 +15,21 @@
     "rxjs": "^7.0.0"
   },
   "dependencies": {
-    "@web-toolkit/auth-core": "*",
+    "@ssweb-toolkit/auth-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/web-toolkit-auth-angular.mjs",
-  "types": "./dist/types/web-toolkit-auth-angular.d.ts",
-  "module": "fesm2022/web-toolkit-auth-angular.mjs",
-  "typings": "types/web-toolkit-auth-angular.d.ts",
+  "main": "./dist/fesm2022/ssweb-toolkit-auth-angular.mjs",
+  "types": "./dist/types/ssweb-toolkit-auth-angular.d.ts",
+  "module": "fesm2022/ssweb-toolkit-auth-angular.mjs",
+  "typings": "types/ssweb-toolkit-auth-angular.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./types/web-toolkit-auth-angular.d.ts",
-      "default": "./fesm2022/web-toolkit-auth-angular.mjs"
+      "types": "./types/ssweb-toolkit-auth-angular.d.ts",
+      "default": "./fesm2022/ssweb-toolkit-auth-angular.mjs"
     }
   },
   "type": "module"

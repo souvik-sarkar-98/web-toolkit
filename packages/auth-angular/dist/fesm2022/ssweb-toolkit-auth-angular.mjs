@@ -1,7 +1,7 @@
 import * as i0 from '@angular/core';
 import { Injectable, InjectionToken, Inject, inject, TemplateRef, ViewContainerRef, Input, Directive } from '@angular/core';
 import { BehaviorSubject, firstValueFrom, merge, filter, take, map } from 'rxjs';
-import { contextFrom, effectivePermissions, effectiveRoles, effectiveRoleGroups } from '@web-toolkit/auth-core';
+import { contextFrom, effectivePermissions, effectiveRoles, effectiveRoleGroups } from '@ssweb-toolkit/auth-core';
 import { Router } from '@angular/router';
 
 class RbacStateService {
@@ -381,4 +381,4 @@ function sanitizeInternalRedirectUrl(url, fallback) {
  */
 
 export { AUTH_CONFIG, AuthorizationService, HasPermissionDirective, PlatformAuthService, RBAC_DATA_SOURCE, RbacNotLoadedError, RbacStateService, USER_IDENTITY, UserIdentityService, authGuard, noAuthGuard, permissionGuard, sanitizeInternalRedirectUrl };
-//# sourceMappingURL=web-toolkit-auth-angular.mjs.map
+//# sourceMappingURL=ssweb-toolkit-auth-angular.mjs.map

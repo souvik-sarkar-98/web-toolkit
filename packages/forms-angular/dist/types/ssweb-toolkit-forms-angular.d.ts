@@ -1,7 +1,7 @@
 import * as i0 from '@angular/core';
 import { InjectionToken, Type, OnChanges, EventEmitter, ChangeDetectorRef, SimpleChanges, TemplateRef, QueryList, EnvironmentProviders } from '@angular/core';
-import * as _web_toolkit_forms_core from '@web-toolkit/forms-core';
-import { FormDefinition, FormValues, FormEngineOptions, ResolvedField, FormStep, FormValidationResult, CustomFieldType, CustomFieldValueParsed, FieldOption, DateRangeValue } from '@web-toolkit/forms-core';
+import * as _ssweb_toolkit_forms_core from '@ssweb-toolkit/forms-core';
+import { FormDefinition, FormValues, FormEngineOptions, ResolvedField, FormStep, FormValidationResult, CustomFieldType, CustomFieldValueParsed, FieldOption, DateRangeValue } from '@ssweb-toolkit/forms-core';
 
 declare class FormEngineService {
     private engine;
@@ -127,8 +127,8 @@ declare class CfFieldComponent implements OnChanges {
     private cachedDateBounds;
     constructor(cdr: ChangeDetectorRef);
     ngOnChanges(changes: SimpleChanges): void;
-    get phoneCountryOptions(): _web_toolkit_forms_core.PhoneCountryCodeOption[];
-    get phoneParsed(): _web_toolkit_forms_core.ParsedPhoneValue;
+    get phoneCountryOptions(): _ssweb_toolkit_forms_core.PhoneCountryCodeOption[];
+    get phoneParsed(): _ssweb_toolkit_forms_core.ParsedPhoneValue;
     get visible(): boolean;
     get isReadOnly(): boolean;
     /** Resolved Material hint text; empty/null hides the hint. */

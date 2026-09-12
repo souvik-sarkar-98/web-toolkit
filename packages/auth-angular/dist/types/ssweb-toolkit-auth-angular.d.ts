@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { RbacUserAccessSnapshot, RbacEntityContext, AuthUser } from '@web-toolkit/auth-core';
+import { RbacUserAccessSnapshot, RbacEntityContext, AuthUser } from '@ssweb-toolkit/auth-core';
 import * as i0 from '@angular/core';
 import { InjectionToken, OnChanges, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';

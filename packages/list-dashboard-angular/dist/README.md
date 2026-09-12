@@ -1,12 +1,20 @@
-# `@web-toolkit/list-dashboard-angular`
+# `@ssweb-toolkit/list-dashboard-angular`
 
 Angular host for config-driven list dashboards (list + chips + filters + detail +
 create + bulk edit + preparation + declarative actions).
 
+## Install
+
+```bash
+npm install @ssweb-toolkit/list-dashboard-core @ssweb-toolkit/list-dashboard-angular @ssweb-toolkit/forms-core @ssweb-toolkit/forms-angular
+```
+
+**Peers:** Angular `^19 || ^20 || ^21` (`animations`, `cdk`, `common`, `core`, `forms`, `material`, `router`) plus the forms and list-dashboard-core packages.
+
 ## Setup
 
 ```typescript
-import { UniversalListDashboardModule } from '@web-toolkit/list-dashboard-angular';
+import { UniversalListDashboardModule } from '@ssweb-toolkit/list-dashboard-angular';
 
 @NgModule({
   imports: [
@@ -22,7 +30,7 @@ export class SharedModule {}
 Import theme defaults (override in the host app as needed):
 
 ```css
-@import '@web-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
+@import '@ssweb-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
 ```
 
 `forRoot` registers **only** DocumentList + FileUpload. Nested collections
@@ -64,4 +72,6 @@ invoke `config.operations[linkId]`.
 ## Docs
 
 - [Developer guide](./docs/DEVELOPER-GUIDE.html) (open in a browser)
-- Core ADR & tokens: `@web-toolkit/list-dashboard-core` → `docs/`
+- [Core package](../list-dashboard-core/README.md) (ADR and tokens)
+
+Overview: [root README](../../README.md).

@@ -6,8 +6,8 @@ Accepted — Experience packages removed
 
 ## Decision
 
-Absorb `@web-toolkit/experience-core` / `@web-toolkit/experience-angular` into
-`@web-toolkit/list-dashboard-core` / `@web-toolkit/list-dashboard-angular`, then
+Absorb `@ssweb-toolkit/experience-core` / `@ssweb-toolkit/experience-angular` into
+`@ssweb-toolkit/list-dashboard-core` / `@ssweb-toolkit/list-dashboard-angular`, then
 delete the Experience packages. There is no shim layer.
 
 Consumers write one typed `ListDashboardConfig` and bind it to `<na-list-dashboard>`.

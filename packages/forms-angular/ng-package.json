@@ -4,5 +4,5 @@
     "entryFile": "src/public-api.ts"
   },
   "dest": "dist",
-  "allowedNonPeerDependencies": ["@web-toolkit/forms-core", "tslib"]
+  "allowedNonPeerDependencies": ["@ssweb-toolkit/forms-core", "tslib"]
 }

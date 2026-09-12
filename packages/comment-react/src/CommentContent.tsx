@@ -1,5 +1,5 @@
-import type { CommentMentionSummary } from '@web-toolkit/comment-core';
-import { parseContentSegments } from '@web-toolkit/comment-core';
+import type { CommentMentionSummary } from '@ssweb-toolkit/comment-core';
+import { parseContentSegments } from '@ssweb-toolkit/comment-core';
 
 export interface CommentContentClassNames {
   root?: string;

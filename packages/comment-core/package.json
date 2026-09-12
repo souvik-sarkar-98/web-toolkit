@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/comment-core",
+  "name": "@ssweb-toolkit/comment-core",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",

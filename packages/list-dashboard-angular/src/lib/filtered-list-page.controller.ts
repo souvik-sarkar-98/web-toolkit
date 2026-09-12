@@ -1,15 +1,15 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
-import { RefDataMap } from '@web-toolkit/list-dashboard-core';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
+import { RefDataMap } from '@ssweb-toolkit/list-dashboard-core';
 import {
   AppliedListFilter,
   ChipFilter,
   ListFilterCriteria,
   ListRowItem,
-} from '@web-toolkit/list-dashboard-core';
-import { FilteredListPageAdapter } from '@web-toolkit/list-dashboard-core';
-import { ConfiguredListPageAdapter } from '@web-toolkit/list-dashboard-core';
+} from '@ssweb-toolkit/list-dashboard-core';
+import { FilteredListPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
+import { ConfiguredListPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
 import { ListRouteState, ListRouteSync } from './list-route-sync';
 
 export interface FilteredListPageInitOptions<TCriteria extends ListFilterCriteria> {

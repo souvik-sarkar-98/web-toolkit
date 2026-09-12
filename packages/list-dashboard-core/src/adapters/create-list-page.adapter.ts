@@ -1,4 +1,4 @@
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
 import type { RefDataMap } from '../types/ref-data.js';
 import type { ListFilterCriteria } from '../models/infinite-list.model.js';
 import {

@@ -1,6 +1,6 @@
 'use client';
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { isDateRangeValue, mergeDateRangePart } from '@web-toolkit/forms-core';
+import { isDateRangeValue, mergeDateRangePart } from '@ssweb-toolkit/forms-core';
 import { createUnstyledComponents } from '../unstyled.js';
 import { renderPhoneFieldControl } from '../phone-field.js';
 export const publicFormClassNames = {

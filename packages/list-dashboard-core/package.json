@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/list-dashboard-core",
+  "name": "@ssweb-toolkit/list-dashboard-core",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -23,7 +23,7 @@
     "lint": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@web-toolkit/forms-core": "*"
+    "@ssweb-toolkit/forms-core": "*"
   },
   "devDependencies": {
     "typescript": "^5.9.3",

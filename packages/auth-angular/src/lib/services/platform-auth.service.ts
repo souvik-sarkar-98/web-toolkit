@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { AuthUser } from '@web-toolkit/auth-core';
+import { AuthUser } from '@ssweb-toolkit/auth-core';
 
 export type LoginType = 'email' | 'password' | 'sms';
 

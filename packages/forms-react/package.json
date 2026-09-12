@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/forms-react",
+  "name": "@ssweb-toolkit/forms-react",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -35,7 +35,7 @@
     "lint": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@web-toolkit/forms-core": "*"
+    "@ssweb-toolkit/forms-core": "*"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",

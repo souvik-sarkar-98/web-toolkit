@@ -10,7 +10,7 @@ import {
   SimpleChanges,
   TemplateRef,
 } from '@angular/core';
-import { AppliedListFilter, ChipFilter, ListRowItem } from '@web-toolkit/list-dashboard-core';
+import { AppliedListFilter, ChipFilter, ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
 
 export type ListSelectionInteraction = 'checkbox' | 'tap' | 'responsive';
 

@@ -6,8 +6,8 @@ import type {
   FormValidationResult,
   FormValues,
   ResolvedField,
-} from '@web-toolkit/forms-core';
-import { FormEngine } from '@web-toolkit/forms-core';
+} from '@ssweb-toolkit/forms-core';
+import { FormEngine } from '@ssweb-toolkit/forms-core';
 
 @Injectable()
 export class FormEngineService {

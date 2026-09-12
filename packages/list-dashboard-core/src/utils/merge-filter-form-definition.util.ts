@@ -1,4 +1,4 @@
-import type { FormDefinition } from '@web-toolkit/forms-core';
+import type { FormDefinition } from '@ssweb-toolkit/forms-core';
 
 /** Preserve dynamic field options when chip unchanged. */
 export function mergeFilterFormDefinition(

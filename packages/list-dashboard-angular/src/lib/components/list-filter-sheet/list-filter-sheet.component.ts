@@ -8,8 +8,8 @@ import {
   SimpleChanges,
   ViewChild,
 } from '@angular/core';
-import { CfFormComponent } from '@web-toolkit/forms-angular';
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
+import { CfFormComponent } from '@ssweb-toolkit/forms-angular';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
 import { setMobileSheetOpen } from '../../utils/mobile-sheet-body-lock';
 
 @Component({

@@ -1,4 +1,4 @@
-import { validateForm } from '@web-toolkit/forms-core';
+import { validateForm } from '@ssweb-toolkit/forms-core';
 /**
  * Resolver compatible with react-hook-form that validates visible fields using forms-core.
  */

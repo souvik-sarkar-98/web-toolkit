@@ -1,4 +1,4 @@
-import type { FormDefinition, FormEngineOptions, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
 export type CustomFormResolverOptions = FormEngineOptions;
 /**
  * Resolver compatible with react-hook-form that validates visible fields using forms-core.

@@ -1,5 +1,5 @@
 import type { Observable } from 'rxjs';
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
 import type { RefDataMap } from '../types/ref-data.js';
 import type { ListFileUpload } from '../types/uploads.js';
 import type { ListRowItem } from '../models/infinite-list.model.js';

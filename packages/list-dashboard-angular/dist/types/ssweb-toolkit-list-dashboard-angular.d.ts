@@ -1,12 +1,12 @@
-import * as _web_toolkit_list_dashboard_core from '@web-toolkit/list-dashboard-core';
-import { ChipFilter, ListRowIconTone, ListRowItem, AppliedListFilter, ListDetailSection, ListDetailKeyValueSection, ListDetailContentSection, ListDetailItemListSection, ListDetailItemListItem, ListDetailSheetMode, ListDetailField, ListFileUpload, ListRouteChipConfig, ListRouteFilterBinding, ListRouteState, ListFilterCriteria, FilteredListPageAdapter, RefDataMap, ListFormCustomStepDef, ListDetailPageAdapter, BulkEditPageConfig, FilteredListDashboardPermissions, ConfiguredListPageAdapter, FilteredListDashboardConfig, FilteredListDashboardContext, FilteredListCreateContext, ListActionFormConfig, ListFormFlowKind, ListDashboardOperations, ListDashboardConfig, ListFormResolverContext, ListPreparationTrigger, ListActionDef } from '@web-toolkit/list-dashboard-core';
-export * from '@web-toolkit/list-dashboard-core';
-export { ListRouteChipConfig, ListRouteFilterBinding, ListRouteState, readRouteRefData } from '@web-toolkit/list-dashboard-core';
+import * as _ssweb_toolkit_list_dashboard_core from '@ssweb-toolkit/list-dashboard-core';
+import { ChipFilter, ListRowIconTone, ListRowItem, AppliedListFilter, ListDetailSection, ListDetailKeyValueSection, ListDetailContentSection, ListDetailItemListSection, ListDetailItemListItem, ListDetailSheetMode, ListDetailField, ListFileUpload, ListRouteChipConfig, ListRouteFilterBinding, ListRouteState, ListFilterCriteria, FilteredListPageAdapter, RefDataMap, ListFormCustomStepDef, ListDetailPageAdapter, BulkEditPageConfig, FilteredListDashboardPermissions, ConfiguredListPageAdapter, FilteredListDashboardConfig, FilteredListDashboardContext, FilteredListCreateContext, ListActionFormConfig, ListFormFlowKind, ListDashboardOperations, ListDashboardConfig, ListFormResolverContext, ListPreparationTrigger, ListActionDef } from '@ssweb-toolkit/list-dashboard-core';
+export * from '@ssweb-toolkit/list-dashboard-core';
+export { ListRouteChipConfig, ListRouteFilterBinding, ListRouteState, readRouteRefData } from '@ssweb-toolkit/list-dashboard-core';
 import * as i0 from '@angular/core';
 import { InjectionToken, Type, Provider, EventEmitter, OnInit, OnChanges, TemplateRef, SimpleChanges, OnDestroy, AfterViewInit, ElementRef, ModuleWithProviders } from '@angular/core';
-import * as i15 from '@web-toolkit/forms-angular';
-import { CfFormComponent, CfFormStepperStep, CfFormStepperBuildDefinition, CfFormStepperResolveSteps, CfFormStepperValidateStep, CfFormStepperPrepareStep, CfFormStepperStepChange, CfFormStepperComponent, CfFormStepperState, CfFormStepperCustomStepValidator } from '@web-toolkit/forms-angular';
-import { FormDefinition, FormValues, FormEngineOptions } from '@web-toolkit/forms-core';
+import * as i15 from '@ssweb-toolkit/forms-angular';
+import { CfFormComponent, CfFormStepperStep, CfFormStepperBuildDefinition, CfFormStepperResolveSteps, CfFormStepperValidateStep, CfFormStepperPrepareStep, CfFormStepperStepChange, CfFormStepperComponent, CfFormStepperState, CfFormStepperCustomStepValidator } from '@ssweb-toolkit/forms-angular';
+import { FormDefinition, FormValues, FormEngineOptions } from '@ssweb-toolkit/forms-core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import * as i13 from '@angular/common';
 import * as i14 from '@angular/material/checkbox';
@@ -862,7 +862,7 @@ declare class FilteredListDashboardController<TEntity, TCriteria extends ListFil
     private config?;
     private refData;
     private route;
-    get detailPageAdapter(): _web_toolkit_list_dashboard_core.ConfiguredDetailPageAdapter<TEntity>;
+    get detailPageAdapter(): _ssweb_toolkit_list_dashboard_core.ConfiguredDetailPageAdapter<TEntity>;
     init(options: FilteredListDashboardInitOptions<TEntity, TCriteria>): void;
     destroy(): void;
     buildContext(): FilteredListDashboardContext;

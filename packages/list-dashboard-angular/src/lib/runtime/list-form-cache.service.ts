@@ -8,7 +8,7 @@ import {
   type ListFilterCriteria,
   type ListFormResolverContext,
   type FilteredListDashboardConfig,
-} from '@web-toolkit/list-dashboard-core';
+} from '@ssweb-toolkit/list-dashboard-core';
 
 /**
  * Per-dashboard form cache. Host supplies one instance so tenant/route data

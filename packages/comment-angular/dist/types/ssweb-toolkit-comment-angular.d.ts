@@ -1,8 +1,8 @@
 import * as i0 from '@angular/core';
 import { InjectionToken, ElementRef, ChangeDetectorRef } from '@angular/core';
 import { ControlValueAccessor } from '@angular/forms';
-import * as _web_toolkit_comment_core from '@web-toolkit/comment-core';
-import { MentionCandidate, CommentEditorValue, CommentMentionSummary } from '@web-toolkit/comment-core';
+import * as _ssweb_toolkit_comment_core from '@ssweb-toolkit/comment-core';
+import { MentionCandidate, CommentEditorValue, CommentMentionSummary } from '@ssweb-toolkit/comment-core';
 
 type MentionUserSearchFn = (query: string) => MentionCandidate[] | Promise<MentionCandidate[]>;
 declare const MENTION_USER_SEARCH: InjectionToken<MentionUserSearchFn>;
@@ -49,7 +49,7 @@ declare class MentionCommentEditorComponent implements ControlValueAccessor {
 declare class CommentContentComponent {
     content: string;
     mentions: CommentMentionSummary[];
-    get segments(): _web_toolkit_comment_core.ContentSegment[];
+    get segments(): _ssweb_toolkit_comment_core.ContentSegment[];
     static ɵfac: i0.ɵɵFactoryDeclaration<CommentContentComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<CommentContentComponent, "cm-comment-content", never, { "content": { "alias": "content"; "required": true; }; "mentions": { "alias": "mentions"; "required": false; }; }, {}, never, never, true, never>;
 }

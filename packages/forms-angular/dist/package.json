@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/forms-angular",
+  "name": "@ssweb-toolkit/forms-angular",
   "version": "0.1.0",
   "files": [
     "dist"
@@ -17,22 +17,22 @@
     "@angular/material": "^19.0.0 || ^20.0.0 || ^21.0.0"
   },
   "dependencies": {
-    "@web-toolkit/forms-core": "*",
+    "@ssweb-toolkit/forms-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/web-toolkit-forms-angular.mjs",
-  "types": "./dist/types/web-toolkit-forms-angular.d.ts",
+  "main": "./dist/fesm2022/ssweb-toolkit-forms-angular.mjs",
+  "types": "./dist/types/ssweb-toolkit-forms-angular.d.ts",
   "exports": {
     ".": {
-      "types": "./types/web-toolkit-forms-angular.d.ts",
-      "default": "./fesm2022/web-toolkit-forms-angular.mjs"
+      "types": "./types/ssweb-toolkit-forms-angular.d.ts",
+      "default": "./fesm2022/ssweb-toolkit-forms-angular.mjs"
     },
     "./package.json": {
       "default": "./package.json"
     }
   },
-  "module": "fesm2022/web-toolkit-forms-angular.mjs",
-  "typings": "types/web-toolkit-forms-angular.d.ts",
+  "module": "fesm2022/ssweb-toolkit-forms-angular.mjs",
+  "typings": "types/ssweb-toolkit-forms-angular.d.ts",
   "type": "module"
 }

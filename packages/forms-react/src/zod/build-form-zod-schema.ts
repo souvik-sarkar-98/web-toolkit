@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import type { FormFieldDefinition } from '@web-toolkit/forms-core';
-import { normalizeFieldValidationRules } from '@web-toolkit/forms-core';
+import type { FormFieldDefinition } from '@ssweb-toolkit/forms-core';
+import { normalizeFieldValidationRules } from '@ssweb-toolkit/forms-core';
 
 function applyValidationRules(
   fieldSchema: z.ZodString,

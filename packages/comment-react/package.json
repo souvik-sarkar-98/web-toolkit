@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/comment-react",
+  "name": "@ssweb-toolkit/comment-react",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,7 +22,7 @@
     "lint": "tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
-    "@web-toolkit/comment-core": "*"
+    "@ssweb-toolkit/comment-core": "*"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",

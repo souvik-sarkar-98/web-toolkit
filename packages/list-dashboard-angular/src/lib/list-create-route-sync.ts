@@ -1,5 +1,5 @@
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
-import { parseBooleanQueryParam, parseStringQueryParam } from '@web-toolkit/list-dashboard-core';
+import { parseBooleanQueryParam, parseStringQueryParam } from '@ssweb-toolkit/list-dashboard-core';
 
 export type ListCreateRoutePresetType = 'string' | 'boolean';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@web-toolkit/auth-core",
+  "name": "@ssweb-toolkit/auth-core",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",

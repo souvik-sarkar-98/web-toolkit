@@ -11,15 +11,15 @@ import {
   ViewChild,
 } from '@angular/core';
 import { ULD_FILE_UPLOAD, UldFileUploadComponent } from '../../tokens';
-import { CfFormComponent } from '@web-toolkit/forms-angular';
-import type { FormDefinition, FormEngineOptions, FormValues } from '@web-toolkit/forms-core';
+import { CfFormComponent } from '@ssweb-toolkit/forms-angular';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
 import { setMobileSheetOpen } from '../../utils/mobile-sheet-body-lock';
-import { ListFileUpload } from '@web-toolkit/list-dashboard-core';
+import { ListFileUpload } from '@ssweb-toolkit/list-dashboard-core';
 import {
   ListDetailField,
   ListDetailSection,
   ListDetailSheetMode,
-} from '@web-toolkit/list-dashboard-core';
+} from '@ssweb-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-list-detail-sheet',

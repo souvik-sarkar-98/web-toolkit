@@ -1,4 +1,4 @@
-import type { CustomFieldType } from '@web-toolkit/forms-core';
+import type { CustomFieldType } from '@ssweb-toolkit/forms-core';
 import type { CustomFormClassNames, CustomFormComponents, FieldRenderProps } from './types.js';
 import type { ReactNode } from 'react';
 import { createElement } from 'react';

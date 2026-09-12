@@ -8,13 +8,13 @@ import {
   type MouseEvent,
   type TextareaHTMLAttributes,
 } from 'react';
-import type { CommentEditorValue, MentionCandidate, MentionUserSearch } from '@web-toolkit/comment-core';
+import type { CommentEditorValue, MentionCandidate, MentionUserSearch } from '@ssweb-toolkit/comment-core';
 import {
   buildCommentEditorValue,
   contentToEditableText,
   deduplicateMentions,
   insertMentionInEditableText,
-} from '@web-toolkit/comment-core';
+} from '@ssweb-toolkit/comment-core';
 import { CommentContent } from './CommentContent.js';
 import { syncTextareaCursor, useMentionAutocomplete } from './useMentionAutocomplete.js';
 

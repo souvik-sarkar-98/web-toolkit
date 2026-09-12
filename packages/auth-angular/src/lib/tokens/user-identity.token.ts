@@ -1,5 +1,5 @@
 import { InjectionToken } from '@angular/core';
-import { AuthUser } from '@web-toolkit/auth-core';
+import { AuthUser } from '@ssweb-toolkit/auth-core';
 import { LoginType } from '../services/platform-auth.service';
 
 /** Minimal identity contract used by guards and HTTP error handling. */

@@ -1,4 +1,4 @@
-import type { FormDefinition } from '@web-toolkit/forms-core';
+import type { FormDefinition } from '@ssweb-toolkit/forms-core';
 import type { BulkEditPageConfig, FilteredListCreateConfig, FilteredListDashboardContext, FilteredListDashboardPermissions, FilteredListRefDataLoader } from './filtered-list-dashboard.config.js';
 import type { FilteredListPageConfig } from './filtered-list-page.config.js';
 import type { ListDetailPageConfig } from './list-detail-page.config.js';

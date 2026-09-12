@@ -1,7 +1,7 @@
 /**
  * Public API for the Universal List Dashboard (Angular).
  */
-export * from '@web-toolkit/list-dashboard-core';
+export * from '@ssweb-toolkit/list-dashboard-core';
 
 export { UniversalListDashboardModule } from './lib/universal-list-dashboard.module';
 export {
@@ -103,4 +103,4 @@ export {
   type ListOverlayTemplateContext,
 } from './lib/runtime/list-dashboard-templates';
 
-export { readRouteRefData } from '@web-toolkit/list-dashboard-core';
+export { readRouteRefData } from '@ssweb-toolkit/list-dashboard-core';

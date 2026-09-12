@@ -3,7 +3,7 @@ import {
   type FieldOption,
   type FormDefinition,
   type FormValues,
-} from '@web-toolkit/forms-core';
+} from '@ssweb-toolkit/forms-core';
 
 export interface ListFormContext<TEntity = unknown> {
   dashboardId?: string;

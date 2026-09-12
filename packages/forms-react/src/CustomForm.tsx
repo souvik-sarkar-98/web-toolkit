@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, type FormEvent } from 'react';
-import type { FormValues } from '@web-toolkit/forms-core';
+import type { FormValues } from '@ssweb-toolkit/forms-core';
 import type { CustomFormProps } from './types.js';
 import { useCustomForm } from './useCustomForm.js';
 import { mergeComponents, renderFieldControl, wrapFieldLayout } from './registry.js';

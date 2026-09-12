@@ -1,5 +1,5 @@
-import type { FormDefinition, FormValues } from '@web-toolkit/forms-core';
-import type { CfFormStepperStep } from '@web-toolkit/forms-angular';
+import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
+import type { CfFormStepperStep } from '@ssweb-toolkit/forms-angular';
 import { Subscription, isObservable } from 'rxjs';
 import type {
   ListActionFormConfig,
@@ -9,7 +9,7 @@ import type {
   ListFormCustomStepDef,
   ListFormFlowKind,
   RefDataMap,
-} from '@web-toolkit/list-dashboard-core';
+} from '@ssweb-toolkit/list-dashboard-core';
 
 export interface ListActionFormSaved<TEntity> {
   actionFormId: string;

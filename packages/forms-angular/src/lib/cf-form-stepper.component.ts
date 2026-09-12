@@ -11,7 +11,7 @@ import {
   SimpleChanges,
   ViewChild,
 } from '@angular/core';
-import type { FormDefinition, FormEngineOptions, FormValues } from '@web-toolkit/forms-core';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
 import { CfFormComponent } from './cf-form.component';
 import { CfFormStepperStepDirective } from './cf-form-stepper-step.directive';
 import type {

@@ -9,8 +9,8 @@ import type {
   ListPreparationTrigger,
   ListRowItem,
   RefDataMap,
-} from '@web-toolkit/list-dashboard-core';
-import type { FormValues } from '@web-toolkit/forms-core';
+} from '@ssweb-toolkit/list-dashboard-core';
+import type { FormValues } from '@ssweb-toolkit/forms-core';
 import { Subscription, tap } from 'rxjs';
 import {
   FilteredListDashboardController,

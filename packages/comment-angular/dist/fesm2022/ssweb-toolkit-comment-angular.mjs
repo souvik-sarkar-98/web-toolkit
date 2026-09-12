@@ -2,7 +2,7 @@ import * as i0 from '@angular/core';
 import { Input, ChangeDetectionStrategy, Component, InjectionToken, forwardRef, ViewChild, Optional, Inject } from '@angular/core';
 import * as i1 from '@angular/forms';
 import { FormsModule, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { parseContentSegments, contentToEditableText, buildCommentEditorValue, insertMentionInEditableText, deduplicateMentions, getActiveMentionQuery } from '@web-toolkit/comment-core';
+import { parseContentSegments, contentToEditableText, buildCommentEditorValue, insertMentionInEditableText, deduplicateMentions, getActiveMentionQuery } from '@ssweb-toolkit/comment-core';
 
 class CommentContentComponent {
     content;
@@ -322,4 +322,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "21.2.21", ngImpo
  */
 
 export { CommentContentComponent, MENTION_USER_SEARCH, MentionCommentEditorComponent };
-//# sourceMappingURL=web-toolkit-comment-angular.mjs.map
+//# sourceMappingURL=ssweb-toolkit-comment-angular.mjs.map

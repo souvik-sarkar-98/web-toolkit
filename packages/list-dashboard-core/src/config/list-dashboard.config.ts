@@ -1,4 +1,4 @@
-import type { FormDefinition } from '@web-toolkit/forms-core';
+import type { FormDefinition } from '@ssweb-toolkit/forms-core';
 import type {
   BulkEditPageConfig,
   FilteredListCreateConfig,

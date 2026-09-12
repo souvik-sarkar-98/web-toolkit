@@ -1,5 +1,5 @@
 import { InjectionToken } from '@angular/core';
-import type { MentionCandidate } from '@web-toolkit/comment-core';
+import type { MentionCandidate } from '@ssweb-toolkit/comment-core';
 
 export type MentionUserSearchFn = (query: string) => MentionCandidate[] | Promise<MentionCandidate[]>;
 

@@ -20,7 +20,7 @@ export type {
   MentionInput,
   MentionUserSearch,
   UpdateCommentPayload,
-} from '@web-toolkit/comment-core';
+} from '@ssweb-toolkit/comment-core';
 
 export {
   buildCommentEditorValue,
@@ -28,4 +28,4 @@ export {
   parseContentSegments,
   toCreateCommentPayload,
   toUpdateCommentPayload,
-} from '@web-toolkit/comment-core';
+} from '@ssweb-toolkit/comment-core';

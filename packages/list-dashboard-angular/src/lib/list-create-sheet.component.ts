@@ -8,8 +8,8 @@ import {
   SimpleChanges,
   ViewChild,
 } from '@angular/core';
-import type { FormDefinition, FormEngineOptions, FormValues } from '@web-toolkit/forms-core';
-import { CfFormComponent } from '@web-toolkit/forms-angular';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
+import { CfFormComponent } from '@ssweb-toolkit/forms-angular';
 import { MobileFormSheetComponent } from './mobile-form-sheet/mobile-form-sheet.component';
 
 @Component({
