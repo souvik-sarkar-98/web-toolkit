@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   changeset-check:
-    uses: nabarun-ngo/deploy-platform/.github/workflows/reusable-ci-changeset-check.yml@main
+    uses: nabarun-ngo/ngo-nabarun-deploy/.github/workflows/reusable-ci-changeset-check.yml@main
     with:
       node_version: '22'
       working_directory: '.'
