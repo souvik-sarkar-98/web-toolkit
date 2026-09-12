@@ -1,7 +1,7 @@
 {
   "name": "web-toolkit",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "packageManager": "npm@10.9.8",
   "engines": {
     "node": ">=22"
