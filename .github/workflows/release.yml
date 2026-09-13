@@ -6,7 +6,10 @@ name: Release
 on:
   push:
     branches: [main, stage]
-
+    paths-ignore:
+      - '.github/**'
+      - '.changeset/**'
+      
 concurrency:
   group: release-${{ github.ref }}
   cancel-in-progress: false
@@ -21,7 +24,7 @@ jobs:
     with:
       node_version: '22'
       working_directory: '.'
-      npm_scope: '@ssweb-toolkit'
+      npm_scope: '@ssfrontend-toolkit'
       version_command: 'npm run version-packages'
       publish_to_npm: true
       publish_command: ${{ github.ref_name == 'main' && 'npm run release' || 'npm run release:beta' }}
