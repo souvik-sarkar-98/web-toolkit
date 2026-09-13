@@ -14,14 +14,14 @@ import {
   FormsModule,
   NG_VALUE_ACCESSOR,
 } from '@angular/forms';
-import type { CommentEditorValue, MentionCandidate } from '@ssweb-toolkit/comment-core';
+import type { CommentEditorValue, MentionCandidate } from '@ssfrontend-toolkit/comment-core';
 import {
   buildCommentEditorValue,
   contentToEditableText,
   deduplicateMentions,
   getActiveMentionQuery,
   insertMentionInEditableText,
-} from '@ssweb-toolkit/comment-core';
+} from '@ssfrontend-toolkit/comment-core';
 import { CommentContentComponent } from './comment-content.component';
 import { MENTION_USER_SEARCH, type MentionUserSearchFn } from './tokens';
 

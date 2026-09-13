@@ -22,8 +22,8 @@ import type {
   ListFormResolverContext,
   ListRowItem,
   RefDataMap,
-} from '@ssweb-toolkit/list-dashboard-core';
-import type { FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
+import type { FormEngineOptions, FormValues } from '@ssfrontend-toolkit/forms-core';
 import { UniversalListDashboardModule } from '../../universal-list-dashboard.module';
 import {
   ListDashboardRuntime,

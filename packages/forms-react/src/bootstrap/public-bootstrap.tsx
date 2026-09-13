@@ -1,6 +1,6 @@
 'use client';
 
-import { isDateRangeValue, mergeDateRangePart } from '@ssweb-toolkit/forms-core';
+import { isDateRangeValue, mergeDateRangePart } from '@ssfrontend-toolkit/forms-core';
 import { createUnstyledComponents } from '../unstyled.js';
 import { renderPhoneFieldControl } from '../phone-field.js';
 import type { CustomFormClassNames, CustomFormComponents } from '../types.js';

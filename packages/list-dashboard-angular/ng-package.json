@@ -5,7 +5,7 @@
   },
   "dest": "dist",
   "allowedNonPeerDependencies": [
-    "@ssweb-toolkit/list-dashboard-core",
+    "@ssfrontend-toolkit/list-dashboard-core",
     "tslib"
   ]
 }

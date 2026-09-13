@@ -1,7 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule, NgComponentOutlet } from '@angular/common';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { CfFormComponent } from '@ssweb-toolkit/forms-angular';
+import { CfFormComponent } from '@ssfrontend-toolkit/forms-angular';
 import { ChipFilterBarComponent } from './components/chip-filter-bar/chip-filter-bar.component';
 import { ListRowCardComponent } from './components/list-row-card/list-row-card.component';
 import { InfiniteListRowComponent } from './components/infinite-list-row/infinite-list-row.component';

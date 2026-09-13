@@ -1,6 +1,6 @@
 import { Component, ContentChild, EventEmitter, Input, Output, TemplateRef } from '@angular/core';
 import { FilteredListPageController } from '../../filtered-list-page.controller';
-import { ListFilterCriteria, ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
+import { ListFilterCriteria, ListRowItem } from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-filtered-list-page',

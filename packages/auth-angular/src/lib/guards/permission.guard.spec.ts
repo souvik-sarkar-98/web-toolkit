@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { Router } from '@angular/router';
 import { describe, expect, it, beforeEach, vi } from 'vitest';
 import { of, throwError } from 'rxjs';
-import { snapshotFromCurrentUser } from '@ssweb-toolkit/auth-core';
+import { snapshotFromCurrentUser } from '@ssfrontend-toolkit/auth-core';
 import { AUTH_CONFIG, AuthorizationService, permissionGuard } from '../../public-api';
 import { RbacStateService } from '../services/rbac-state.service';
 import { RBAC_DATA_SOURCE } from '../tokens/rbac-data-source.token';

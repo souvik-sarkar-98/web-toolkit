@@ -1,7 +1,7 @@
 import { describe, expect, it, beforeEach, vi } from 'vitest';
 import { BehaviorSubject, of, throwError } from 'rxjs';
-import { AuthUser } from '@ssweb-toolkit/auth-core';
-import { snapshotFromCurrentUser } from '@ssweb-toolkit/auth-core';
+import { AuthUser } from '@ssfrontend-toolkit/auth-core';
+import { snapshotFromCurrentUser } from '@ssfrontend-toolkit/auth-core';
 import { AuthorizationService } from './authorization.service';
 import { PlatformAuthService } from './platform-auth.service';
 import { UserIdentityService } from './user-identity.service';

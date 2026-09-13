@@ -1,11 +1,11 @@
-# `@ssweb-toolkit/forms-core`
+# `@ssfrontend-toolkit/forms-core`
 
 Framework-agnostic models and engine for definition-driven custom forms: visibility, dependent options, validation, dates/phones, and submit serialization.
 
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/forms-core
+npm install @ssfrontend-toolkit/forms-core
 ```
 
 Peer-free; UI lives in [`forms-react`](../forms-react/README.md) and [`forms-angular`](../forms-angular/README.md).
@@ -28,7 +28,7 @@ import {
   FormEngine,
   fromPublicFormDefinition,
   serializeFormSubmitValues,
-} from '@ssweb-toolkit/forms-core';
+} from '@ssfrontend-toolkit/forms-core';
 
 const definition = fromPublicFormDefinition(apiPayload);
 const engine = new FormEngine(definition, { initialValues: {} });
@@ -43,8 +43,8 @@ if (result.valid) {
 ## Build (this repo)
 
 ```bash
-npm run build -w @ssweb-toolkit/forms-core
-npm test -w @ssweb-toolkit/forms-core
+npm run build -w @ssfrontend-toolkit/forms-core
+npm test -w @ssfrontend-toolkit/forms-core
 ```
 
 Fixed version group with `forms-react` and `forms-angular`. Overview: [root README](../../README.md).

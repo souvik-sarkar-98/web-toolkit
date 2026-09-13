@@ -1,24 +1,24 @@
 import { ActivatedRoute, Router } from '@angular/router';
-import { RefDataMap } from '@ssweb-toolkit/list-dashboard-core';
-import { ListFilterCriteria } from '@ssweb-toolkit/list-dashboard-core';
-import { createListPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
-import { createDetailPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
+import { RefDataMap } from '@ssfrontend-toolkit/list-dashboard-core';
+import { ListFilterCriteria } from '@ssfrontend-toolkit/list-dashboard-core';
+import { createListPageAdapter } from '@ssfrontend-toolkit/list-dashboard-core';
+import { createDetailPageAdapter } from '@ssfrontend-toolkit/list-dashboard-core';
 import { FilteredListPageController } from './filtered-list-page.controller';
 import { ListDetailPageController } from './list-detail-page.controller';
 import { ListCreatePageController } from './list-create-page.controller';
 import { ListRouteSync } from './list-route-sync';
 import { BulkEditPageController } from './bulk-edit-page.controller';
-import type { FieldOption, FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
-import type { CfFormStepperStep } from '@ssweb-toolkit/forms-angular';
+import type { FieldOption, FormDefinition, FormValues } from '@ssfrontend-toolkit/forms-core';
+import type { CfFormStepperStep } from '@ssfrontend-toolkit/forms-angular';
 import {
   FilteredListCreateContext,
   FilteredListDashboardAdapters,
   FilteredListDashboardConfig,
   FilteredListDashboardContext,
   FilteredListDashboardPermissions,
-} from '@ssweb-toolkit/list-dashboard-core';
-import { ConfiguredListPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
-import { ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
+import { ConfiguredListPageAdapter } from '@ssfrontend-toolkit/list-dashboard-core';
+import { ListRowItem } from '@ssfrontend-toolkit/list-dashboard-core';
 
 export interface FilteredListDashboardInitHooks<TEntity> {
   onSaveError?: (error: unknown) => void;

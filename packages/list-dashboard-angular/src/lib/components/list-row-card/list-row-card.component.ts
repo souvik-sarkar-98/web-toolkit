@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ListRowIconTone } from '@ssweb-toolkit/list-dashboard-core';
+import { ListRowIconTone } from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-list-row-card',

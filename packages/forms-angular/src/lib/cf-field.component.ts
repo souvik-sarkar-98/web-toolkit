@@ -11,8 +11,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
-import type { CustomFieldValueParsed, DateRangeValue, FieldOption, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
-import type { ResolvedField } from '@ssweb-toolkit/forms-core';
+import type { CustomFieldValueParsed, DateRangeValue, FieldOption, FormEngineOptions, FormValues } from '@ssfrontend-toolkit/forms-core';
+import type { ResolvedField } from '@ssfrontend-toolkit/forms-core';
 import {
   formatIsoDate,
   formatPhoneFieldValue,
@@ -25,7 +25,7 @@ import {
   createDatePickerFilter,
   hasDateConstraints,
   type ResolvedDateBounds,
-} from '@ssweb-toolkit/forms-core';
+} from '@ssfrontend-toolkit/forms-core';
 
 @Component({
   selector: 'cf-field',

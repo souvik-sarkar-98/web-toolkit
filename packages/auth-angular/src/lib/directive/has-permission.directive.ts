@@ -9,7 +9,7 @@ import {
   ViewContainerRef,
 } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { RbacEntityContext } from '@ssweb-toolkit/auth-core';
+import { RbacEntityContext } from '@ssfrontend-toolkit/auth-core';
 import { AuthorizationService } from '../services/authorization.service';
 
 /**

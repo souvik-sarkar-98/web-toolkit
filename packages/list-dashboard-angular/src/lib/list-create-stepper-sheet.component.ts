@@ -8,8 +8,8 @@ import {
   SimpleChanges,
   ViewChild,
 } from '@angular/core';
-import type { FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
-import type { ListFormCustomStepDef } from '@ssweb-toolkit/list-dashboard-core';
+import type { FormEngineOptions, FormValues } from '@ssfrontend-toolkit/forms-core';
+import type { ListFormCustomStepDef } from '@ssfrontend-toolkit/list-dashboard-core';
 import {
   CfFormStepperComponent,
   CfFormStepperStepDirective,
@@ -21,7 +21,7 @@ import {
   type CfFormStepperStep,
   type CfFormStepperStepChange,
   type CfFormStepperValidateStep,
-} from '@ssweb-toolkit/forms-angular';
+} from '@ssfrontend-toolkit/forms-angular';
 import { MobileFormSheetComponent } from './mobile-form-sheet/mobile-form-sheet.component';
 import { ListFormCustomStepHostComponent } from './components/list-form-custom-step-host.component';
 

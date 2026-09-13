@@ -3,7 +3,7 @@
 Import package defaults once, then override in the host app:
 
 ```css
-@import '@ssweb-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
+@import '@ssfrontend-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
 
 :root {
   --primary-500: #f97316;

@@ -1,14 +1,14 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription, catchError, of } from 'rxjs';
-import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
-import { ListFileUpload, RefDataMap } from '@ssweb-toolkit/list-dashboard-core';
+import type { FormDefinition, FormValues } from '@ssfrontend-toolkit/forms-core';
+import { ListFileUpload, RefDataMap } from '@ssfrontend-toolkit/list-dashboard-core';
 import {
   ListDetailField,
   ListDetailSection,
   ListDetailSheetMode,
-} from '@ssweb-toolkit/list-dashboard-core';
-import { ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
-import { ListDetailPageAdapter } from '@ssweb-toolkit/list-dashboard-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
+import { ListRowItem } from '@ssfrontend-toolkit/list-dashboard-core';
+import { ListDetailPageAdapter } from '@ssfrontend-toolkit/list-dashboard-core';
 import {
   ListDetailRouteSync,
   ListDetailRouteSyncConfig,

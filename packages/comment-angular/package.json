@@ -1,5 +1,5 @@
 {
-  "name": "@ssweb-toolkit/comment-angular",
+  "name": "@ssfrontend-toolkit/comment-angular",
   "version": "1.0.0",
   "files": [
     "dist"
@@ -14,16 +14,16 @@
     "@angular/forms": "^19.0.0 || ^20.0.0 || ^21.0.0"
   },
   "dependencies": {
-    "@ssweb-toolkit/comment-core": "*",
+    "@ssfrontend-toolkit/comment-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/ssweb-toolkit-comment-angular.mjs",
-  "types": "./dist/types/ssweb-toolkit-comment-angular.d.ts",
+  "main": "./dist/fesm2022/ssfrontend-toolkit-comment-angular.mjs",
+  "types": "./dist/types/ssfrontend-toolkit-comment-angular.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/types/ssweb-toolkit-comment-angular.d.ts",
-      "default": "./dist/fesm2022/ssweb-toolkit-comment-angular.mjs"
+      "types": "./dist/types/ssfrontend-toolkit-comment-angular.d.ts",
+      "default": "./dist/fesm2022/ssfrontend-toolkit-comment-angular.mjs"
     }
   },
   "scripts": {

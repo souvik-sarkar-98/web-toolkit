@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { ChipFilter } from '@ssweb-toolkit/list-dashboard-core';
+import { ChipFilter } from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-chip-filter-bar',

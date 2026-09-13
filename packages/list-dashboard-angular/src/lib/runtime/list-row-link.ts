@@ -1,4 +1,4 @@
-import type { ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
+import type { ListRowItem } from '@ssfrontend-toolkit/list-dashboard-core';
 
 export interface ListRowLinkEvent<TEntity> {
   item: ListRowItem<TEntity>;

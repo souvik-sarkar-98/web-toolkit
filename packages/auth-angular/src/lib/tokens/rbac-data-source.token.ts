@@ -1,5 +1,5 @@
 import { InjectionToken } from '@angular/core';
-import { RbacUserAccessSnapshot } from '@ssweb-toolkit/auth-core';
+import { RbacUserAccessSnapshot } from '@ssfrontend-toolkit/auth-core';
 import { Observable } from 'rxjs';
 
 /**

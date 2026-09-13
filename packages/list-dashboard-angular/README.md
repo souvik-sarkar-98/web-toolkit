@@ -1,4 +1,4 @@
-# `@ssweb-toolkit/list-dashboard-angular`
+# `@ssfrontend-toolkit/list-dashboard-angular`
 
 Angular host for config-driven list dashboards (list + chips + filters + detail +
 create + bulk edit + preparation + declarative actions).
@@ -6,7 +6,7 @@ create + bulk edit + preparation + declarative actions).
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/list-dashboard-core @ssweb-toolkit/list-dashboard-angular @ssweb-toolkit/forms-core @ssweb-toolkit/forms-angular
+npm install @ssfrontend-toolkit/list-dashboard-core @ssfrontend-toolkit/list-dashboard-angular @ssfrontend-toolkit/forms-core @ssfrontend-toolkit/forms-angular
 ```
 
 **Peers:** Angular `^19 || ^20 || ^21` (`animations`, `cdk`, `common`, `core`, `forms`, `material`, `router`) plus the forms and list-dashboard-core packages.
@@ -14,7 +14,7 @@ npm install @ssweb-toolkit/list-dashboard-core @ssweb-toolkit/list-dashboard-ang
 ## Setup
 
 ```typescript
-import { UniversalListDashboardModule } from '@ssweb-toolkit/list-dashboard-angular';
+import { UniversalListDashboardModule } from '@ssfrontend-toolkit/list-dashboard-angular';
 
 @NgModule({
   imports: [
@@ -30,7 +30,7 @@ export class SharedModule {}
 Import theme defaults (override in the host app as needed):
 
 ```css
-@import '@ssweb-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
+@import '@ssfrontend-toolkit/list-dashboard-angular/styles/list-dashboard.tokens.css';
 ```
 
 `forRoot` registers **only** DocumentList + FileUpload. Nested collections

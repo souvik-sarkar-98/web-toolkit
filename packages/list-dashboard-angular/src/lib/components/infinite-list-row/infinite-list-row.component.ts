@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { ListRowItem } from '@ssweb-toolkit/list-dashboard-core';
+import { ListRowItem } from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-infinite-list-row',

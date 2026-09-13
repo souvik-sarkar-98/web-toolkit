@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { RbacUserAccessSnapshot } from '@ssweb-toolkit/auth-core';
+import { RbacUserAccessSnapshot } from '@ssfrontend-toolkit/auth-core';
 
 export type RbacLoadState = 'idle' | 'loading' | 'loaded' | 'failed' | 'cleared';
 

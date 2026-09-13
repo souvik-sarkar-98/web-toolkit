@@ -1,4 +1,4 @@
-import type { FormDefinition } from '@ssweb-toolkit/forms-core';
+import type { FormDefinition } from '@ssfrontend-toolkit/forms-core';
 import type { FilteredListDashboardConfig } from '../config/filtered-list-dashboard.config.js';
 import type { ListFilterCriteria } from '../models/infinite-list.model.js';
 import type {

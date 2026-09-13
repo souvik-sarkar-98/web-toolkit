@@ -1,5 +1,5 @@
 {
-  "name": "@ssweb-toolkit/forms-angular",
+  "name": "@ssfrontend-toolkit/forms-angular",
   "version": "1.0.0",
   "files": [
     "dist"
@@ -17,16 +17,16 @@
     "@angular/material": "^19.0.0 || ^20.0.0 || ^21.0.0"
   },
   "dependencies": {
-    "@ssweb-toolkit/forms-core": "*",
+    "@ssfrontend-toolkit/forms-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/ssweb-toolkit-forms-angular.mjs",
-  "types": "./dist/types/ssweb-toolkit-forms-angular.d.ts",
+  "main": "./dist/fesm2022/ssfrontend-toolkit-forms-angular.mjs",
+  "types": "./dist/types/ssfrontend-toolkit-forms-angular.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/types/ssweb-toolkit-forms-angular.d.ts",
-      "default": "./dist/fesm2022/ssweb-toolkit-forms-angular.mjs"
+      "types": "./dist/types/ssfrontend-toolkit-forms-angular.d.ts",
+      "default": "./dist/fesm2022/ssfrontend-toolkit-forms-angular.mjs"
     }
   },
   "scripts": {

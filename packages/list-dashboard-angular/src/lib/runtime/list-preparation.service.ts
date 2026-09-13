@@ -4,7 +4,7 @@ import {
   type ListDashboardConfig,
   type ListFilterCriteria,
   type ListPreparationTrigger,
-} from '@ssweb-toolkit/list-dashboard-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Injectable()
 export class ListPreparationService {

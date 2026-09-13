@@ -1,11 +1,11 @@
-# `@ssweb-toolkit/auth-angular`
+# `@ssfrontend-toolkit/auth-angular`
 
 Angular auth and RBAC: identity, permission checks, route guards, and a structural directive. The host app implements IdP login and the RBAC HTTP source.
 
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/auth-core @ssweb-toolkit/auth-angular
+npm install @ssfrontend-toolkit/auth-core @ssfrontend-toolkit/auth-angular
 ```
 
 **Peers:** Angular `^19 || ^20 || ^21` (`common`, `core`, `router`) and `rxjs` ^7.
@@ -36,7 +36,7 @@ npm install @ssweb-toolkit/auth-core @ssweb-toolkit/auth-angular
 
 ```ts
 import { Routes } from '@angular/router';
-import { authGuard, permissionGuard } from '@ssweb-toolkit/auth-angular';
+import { authGuard, permissionGuard } from '@ssfrontend-toolkit/auth-angular';
 
 export const routes: Routes = [
   {
@@ -52,8 +52,8 @@ Call `AuthorizationService` for programmatic checks. Do not pass raw IdP `sub` i
 ## Build (this repo)
 
 ```bash
-npm run build -w @ssweb-toolkit/auth-angular
-npm test -w @ssweb-toolkit/auth-angular
+npm run build -w @ssfrontend-toolkit/auth-angular
+npm test -w @ssfrontend-toolkit/auth-angular
 ```
 
 Fixed version group with `auth-core`. Overview: [root README](../../README.md).

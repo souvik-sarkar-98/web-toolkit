@@ -1,15 +1,15 @@
 # Web Toolkit
 
-npm workspaces + [Turborepo](https://turbo.build/) of **shared frontend libraries** for Nabarun web clients. This repository publishes `@ssweb-toolkit/*` packages; applications live in separate repos (for example the frontend monorepo) and consume these libraries from npm or a workspace link.
+npm workspaces + [Turborepo](https://turbo.build/) of **shared frontend libraries** for Nabarun web clients. This repository publishes `@ssfrontend-toolkit/*` packages; applications live in separate repos (for example the frontend monorepo) and consume these libraries from npm or a workspace link.
 
 ## Packages
 
 | Family | Packages | Docs |
 |--------|----------|------|
-| Forms | `@ssweb-toolkit/forms-core`, `forms-react`, `forms-angular` | [forms-core](packages/forms-core/README.md) · [forms-react](packages/forms-react/README.md) · [forms-angular](packages/forms-angular/README.md) |
-| Comments | `@ssweb-toolkit/comment-core`, `comment-react`, `comment-angular` | [comment-core](packages/comment-core/README.md) · [comment-react](packages/comment-react/README.md) · [comment-angular](packages/comment-angular/README.md) |
-| List dashboard | `@ssweb-toolkit/list-dashboard-core`, `list-dashboard-angular` | [list-dashboard-core](packages/list-dashboard-core/README.md) · [list-dashboard-angular](packages/list-dashboard-angular/README.md) |
-| Auth | `@ssweb-toolkit/auth-core`, `auth-angular` | [auth-core](packages/auth-core/README.md) · [auth-angular](packages/auth-angular/README.md) |
+| Forms | `@ssfrontend-toolkit/forms-core`, `forms-react`, `forms-angular` | [forms-core](packages/forms-core/README.md) · [forms-react](packages/forms-react/README.md) · [forms-angular](packages/forms-angular/README.md) |
+| Comments | `@ssfrontend-toolkit/comment-core`, `comment-react`, `comment-angular` | [comment-core](packages/comment-core/README.md) · [comment-react](packages/comment-react/README.md) · [comment-angular](packages/comment-angular/README.md) |
+| List dashboard | `@ssfrontend-toolkit/list-dashboard-core`, `list-dashboard-angular` | [list-dashboard-core](packages/list-dashboard-core/README.md) · [list-dashboard-angular](packages/list-dashboard-angular/README.md) |
+| Auth | `@ssfrontend-toolkit/auth-core`, `auth-angular` | [auth-core](packages/auth-core/README.md) · [auth-angular](packages/auth-angular/README.md) |
 
 Catalog and versioning notes: [packages/README.md](packages/README.md).
 
@@ -40,11 +40,11 @@ npm install
 | `npm run release` | Build `packages/*` and publish (npm dist-tag `latest`) |
 | `npm run release:beta` | Build `packages/*` and publish with npm dist-tag `beta` |
 
-Target one package with `npm run <script> -w @ssweb-toolkit/<name>`.
+Target one package with `npm run <script> -w @ssfrontend-toolkit/<name>`.
 
 ## Adding a shared package
 
-Create `packages/<name>/package.json` (name `@ssweb-toolkit/<name>`), then depend on it from another workspace with `"*"` or from an app via npm. Turborepo runs dependency builds first via `dependsOn: ["^build"]`. After a public API or behavior change, run `npm run changeset`.
+Create `packages/<name>/package.json` (name `@ssfrontend-toolkit/<name>`), then depend on it from another workspace with `"*"` or from an app via npm. Turborepo runs dependency builds first via `dependsOn: ["^build"]`. After a public API or behavior change, run `npm run changeset`.
 
 ## Package versioning (Changesets)
 
@@ -82,14 +82,14 @@ Dependent packages that use workspace `"*"` ranges get a patch bump when an upst
 
 | Group | Packages |
 |-------|----------|
-| Forms | `@ssweb-toolkit/forms-core`, `@ssweb-toolkit/forms-react`, `@ssweb-toolkit/forms-angular` |
-| Comments | `@ssweb-toolkit/comment-core`, `@ssweb-toolkit/comment-react`, `@ssweb-toolkit/comment-angular` |
-| List dashboard | `@ssweb-toolkit/list-dashboard-core`, `@ssweb-toolkit/list-dashboard-angular` |
-| Auth | `@ssweb-toolkit/auth-core`, `@ssweb-toolkit/auth-angular` |
+| Forms | `@ssfrontend-toolkit/forms-core`, `@ssfrontend-toolkit/forms-react`, `@ssfrontend-toolkit/forms-angular` |
+| Comments | `@ssfrontend-toolkit/comment-core`, `@ssfrontend-toolkit/comment-react`, `@ssfrontend-toolkit/comment-angular` |
+| List dashboard | `@ssfrontend-toolkit/list-dashboard-core`, `@ssfrontend-toolkit/list-dashboard-angular` |
+| Auth | `@ssfrontend-toolkit/auth-core`, `@ssfrontend-toolkit/auth-angular` |
 
 ### CI release pipeline
 
-GitHub Actions uses the **deploy-platform** reusable workflows (this workspace’s `deploy-main` repo, GitHub `nabarun-ngo/deploy-platform`). The publish workflow versions with Changesets and publishes `@ssweb-toolkit/*` to the public npm registry. It does **not** create git tags or GitHub Releases. Version history lives in `package.json`, `CHANGELOG.md`, and npm.
+GitHub Actions uses the **deploy-platform** reusable workflows (this workspace’s `deploy-main` repo, GitHub `nabarun-ngo/deploy-platform`). The publish workflow versions with Changesets and publishes `@ssfrontend-toolkit/*` to the public npm registry. It does **not** create git tags or GitHub Releases. Version history lives in `package.json`, `CHANGELOG.md`, and npm.
 
 | Workflow | Trigger | Purpose |
 |----------|---------|---------|
@@ -99,13 +99,13 @@ GitHub Actions uses the **deploy-platform** reusable workflows (this workspace�
 
 | Branch | npm dist-tag | Install |
 |--------|----------------|---------|
-| `main` | `latest` | `npm install @ssweb-toolkit/auth-angular` |
-| `stage` | `beta` | `npm install @ssweb-toolkit/auth-angular@beta` |
+| `main` | `latest` | `npm install @ssfrontend-toolkit/auth-angular` |
+| `stage` | `beta` | `npm install @ssfrontend-toolkit/auth-angular@beta` |
 
 **Setup (one-time):**
 
-1. Add repository secret **`NPM_TOKEN`** with an npm automation token that can publish `@ssweb-toolkit/*` packages.
-2. Ensure you are logged in to npmjs with publish rights for `@ssweb-toolkit` (`npm login`). Root [`.npmrc`](.npmrc) points the scope at `registry.npmjs.org`.
+1. Add repository secret **`NPM_TOKEN`** with an npm automation token that can publish `@ssfrontend-toolkit/*` packages.
+2. Ensure you are logged in to npmjs with publish rights for `@ssfrontend-toolkit` (`npm login`). Root [`.npmrc`](.npmrc) points the scope at `registry.npmjs.org`.
 3. On the **`stage` branch only**, enter Changesets prerelease mode once and commit the result:
 
    ```bash
@@ -123,6 +123,6 @@ Local releases (`npm run release` / `npm run release:beta`) still work if you pr
 ### Publishing notes
 
 - Libraries under `packages/` publish as **public** packages to npmjs (`publishConfig.access: public` + `registry.npmjs.org`).
-- Anyone can install without a token: `npm install @ssweb-toolkit/auth-angular` (stable) or `npm install @ssweb-toolkit/auth-angular@beta`.
-- For CI publish, use an npm automation token (`NPM_TOKEN`) with write access to the `@ssweb-toolkit` org.
+- Anyone can install without a token: `npm install @ssfrontend-toolkit/auth-angular` (stable) or `npm install @ssfrontend-toolkit/auth-angular@beta`.
+- For CI publish, use an npm automation token (`NPM_TOKEN`) with write access to the `@ssfrontend-toolkit` org.
 - Workflows call `nabarun-ngo/deploy-platform` (`reusable-ci-publish.yml`, `reusable-ci-changeset-check.yml`, `reusable-ci-pr-check.yml`). That is the GitHub identity of this workspace’s `deploy-main` repo; change the `uses:` owner/name if the ops repo is published under a different path.

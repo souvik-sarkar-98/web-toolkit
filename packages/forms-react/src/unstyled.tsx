@@ -1,5 +1,5 @@
-import type { CustomFieldType, DateRangeValue } from '@ssweb-toolkit/forms-core';
-import { isDateRangeValue, mergeDateRangePart } from '@ssweb-toolkit/forms-core';
+import type { CustomFieldType, DateRangeValue } from '@ssfrontend-toolkit/forms-core';
+import { isDateRangeValue, mergeDateRangePart } from '@ssfrontend-toolkit/forms-core';
 import type { CustomFormClassNames, CustomFormComponents, FieldRenderProps } from './types.js';
 import { renderPhoneFieldControl } from './phone-field.js';
 

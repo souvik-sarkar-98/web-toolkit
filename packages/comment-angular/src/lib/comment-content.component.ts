@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import type { CommentMentionSummary } from '@ssweb-toolkit/comment-core';
-import { parseContentSegments } from '@ssweb-toolkit/comment-core';
+import type { CommentMentionSummary } from '@ssfrontend-toolkit/comment-core';
+import { parseContentSegments } from '@ssfrontend-toolkit/comment-core';
 
 @Component({
   selector: 'cm-comment-content',

@@ -12,7 +12,7 @@ import {
   ViewChild,
   ViewContainerRef,
 } from '@angular/core';
-import type { ListFileUpload } from '@ssweb-toolkit/list-dashboard-core';
+import type { ListFileUpload } from '@ssfrontend-toolkit/list-dashboard-core';
 import type { UldFileUploadComponent } from '../tokens';
 
 interface SubscribableOutput {

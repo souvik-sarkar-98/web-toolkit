@@ -7,7 +7,7 @@ import type {
   FormValidationResult,
   FormValues,
   ResolvedField,
-} from '@ssweb-toolkit/forms-core';
+} from '@ssfrontend-toolkit/forms-core';
 import type { ReactNode } from 'react';
 
 export interface FieldRenderProps {

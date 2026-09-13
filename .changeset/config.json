@@ -4,22 +4,22 @@
   "commit": false,
   "fixed": [
     [
-      "@ssweb-toolkit/forms-core",
-      "@ssweb-toolkit/forms-react",
-      "@ssweb-toolkit/forms-angular"
+      "@ssfrontend-toolkit/forms-core",
+      "@ssfrontend-toolkit/forms-react",
+      "@ssfrontend-toolkit/forms-angular"
     ],
     [
-      "@ssweb-toolkit/comment-core",
-      "@ssweb-toolkit/comment-react",
-      "@ssweb-toolkit/comment-angular"
+      "@ssfrontend-toolkit/comment-core",
+      "@ssfrontend-toolkit/comment-react",
+      "@ssfrontend-toolkit/comment-angular"
     ],
     [
-      "@ssweb-toolkit/list-dashboard-core",
-      "@ssweb-toolkit/list-dashboard-angular"
+      "@ssfrontend-toolkit/list-dashboard-core",
+      "@ssfrontend-toolkit/list-dashboard-angular"
     ],
     [
-      "@ssweb-toolkit/auth-core",
-      "@ssweb-toolkit/auth-angular"
+      "@ssfrontend-toolkit/auth-core",
+      "@ssfrontend-toolkit/auth-angular"
     ]
   ],
   "linked": [],

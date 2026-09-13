@@ -1,5 +1,5 @@
-import type { FormDefinition, FormEngineOptions, FormValues } from '@ssweb-toolkit/forms-core';
-import { validateForm } from '@ssweb-toolkit/forms-core';
+import type { FormDefinition, FormEngineOptions, FormValues } from '@ssfrontend-toolkit/forms-core';
+import { validateForm } from '@ssfrontend-toolkit/forms-core';
 
 export type CustomFormResolverOptions = FormEngineOptions;
 

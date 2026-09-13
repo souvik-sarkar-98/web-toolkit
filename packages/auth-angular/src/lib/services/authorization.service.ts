@@ -7,7 +7,7 @@ import {
   effectiveRoles as coreEffectiveRoles,
   RbacEntityContext,
   RbacUserAccessSnapshot,
-} from '@ssweb-toolkit/auth-core';
+} from '@ssfrontend-toolkit/auth-core';
 import { RbacNotLoadedError } from '../errors/rbac-load.error';
 import { RBAC_DATA_SOURCE, RbacDataSource } from '../tokens/rbac-data-source.token';
 import { RbacStateService } from './rbac-state.service';

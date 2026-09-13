@@ -10,8 +10,8 @@ import {
   SimpleChanges,
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import type { FormDefinition, FormEngineOptions, FormStep, FormValues } from '@ssweb-toolkit/forms-core';
-import { isDateRangeValue } from '@ssweb-toolkit/forms-core';
+import type { FormDefinition, FormEngineOptions, FormStep, FormValues } from '@ssfrontend-toolkit/forms-core';
+import { isDateRangeValue } from '@ssfrontend-toolkit/forms-core';
 import { CfFieldComponent } from './cf-field.component';
 import { FormEngineService } from './form-engine.service';
 import { CF_FORM_CLASS_NAMES, type CfFormClassNames } from './tokens';

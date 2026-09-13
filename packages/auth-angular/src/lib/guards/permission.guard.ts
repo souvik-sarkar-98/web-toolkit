@@ -1,6 +1,6 @@
 import { inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { RbacEntityContext } from '@ssweb-toolkit/auth-core';
+import { RbacEntityContext } from '@ssfrontend-toolkit/auth-core';
 import { RbacNotLoadedError } from '../errors/rbac-load.error';
 import { AuthorizationService } from '../services/authorization.service';
 import { AUTH_CONFIG } from '../tokens/auth-config.token';

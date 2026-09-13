@@ -3,7 +3,7 @@ import type {
   ListDashboardOperations,
   ListFilterCriteria,
   ListRowItem,
-} from '@ssweb-toolkit/list-dashboard-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
 import type { ListDashboardRuntime } from './list-dashboard.runtime';
 
 export interface ListRowTemplateContext<TEntity> {

@@ -1,4 +1,4 @@
-import { baseField } from '@ssweb-toolkit/forms-core';
+import { baseField } from '@ssfrontend-toolkit/forms-core';
 import type { Observable } from 'rxjs';
 import type {
   ListActionFormConfig,

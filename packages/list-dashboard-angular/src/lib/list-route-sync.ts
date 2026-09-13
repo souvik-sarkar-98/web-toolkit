@@ -8,14 +8,14 @@ import {
   type ListRouteFilterBinding,
   type ListRouteChipConfig,
   type ListRouteState,
-} from '@ssweb-toolkit/list-dashboard-core';
+} from '@ssfrontend-toolkit/list-dashboard-core';
 
 export type {
   ListRouteFilterBinding,
   ListRouteChipConfig,
   ListRouteState,
-} from '@ssweb-toolkit/list-dashboard-core';
-export type ListRouteFilterType = import('@ssweb-toolkit/list-dashboard-core').ListRouteFilterType;
+} from '@ssfrontend-toolkit/list-dashboard-core';
+export type ListRouteFilterType = import('@ssfrontend-toolkit/list-dashboard-core').ListRouteFilterType;
 
 /**
  * Keeps primary chip + sheet filter criteria in sync with URL query params.

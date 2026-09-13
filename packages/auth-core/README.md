@@ -1,11 +1,11 @@
-# `@ssweb-toolkit/auth-core`
+# `@ssfrontend-toolkit/auth-core`
 
 Framework-agnostic identity and RBAC models. No HTTP, no Angular, no token storage.
 
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/auth-core
+npm install @ssfrontend-toolkit/auth-core
 ```
 
 ## What it does
@@ -23,7 +23,7 @@ import {
   snapshotFromCurrentUser,
   effectivePermissions,
   contextFrom,
-} from '@ssweb-toolkit/auth-core';
+} from '@ssfrontend-toolkit/auth-core';
 
 const snapshot = snapshotFromCurrentUser(dto);
 const perms = effectivePermissions(snapshot, contextFrom({ entityType: 'donation', entityId }));
@@ -32,8 +32,8 @@ const perms = effectivePermissions(snapshot, contextFrom({ entityType: 'donation
 ## Build (this repo)
 
 ```bash
-npm run build -w @ssweb-toolkit/auth-core
-npm test -w @ssweb-toolkit/auth-core
+npm run build -w @ssfrontend-toolkit/auth-core
+npm test -w @ssfrontend-toolkit/auth-core
 ```
 
 Fixed version group with `auth-angular`. Overview: [root README](../../README.md).

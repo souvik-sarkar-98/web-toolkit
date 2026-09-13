@@ -1,4 +1,4 @@
-import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
+import type { FormDefinition, FormValues } from '@ssfrontend-toolkit/forms-core';
 import type { Observable } from 'rxjs';
 import type { RefDataMap } from '../types/ref-data.js';
 import type { ListRowItem } from '../models/infinite-list.model.js';

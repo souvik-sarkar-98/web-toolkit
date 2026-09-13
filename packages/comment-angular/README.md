@@ -1,11 +1,11 @@
-# `@ssweb-toolkit/comment-angular`
+# `@ssfrontend-toolkit/comment-angular`
 
 Angular mention editor and comment display. Standalone components; the editor implements `ControlValueAccessor`.
 
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/comment-core @ssweb-toolkit/comment-angular
+npm install @ssfrontend-toolkit/comment-core @ssfrontend-toolkit/comment-angular
 ```
 
 **Peers:** Angular `^19 || ^20 || ^21` (`common`, `core`, `forms`).
@@ -15,7 +15,7 @@ npm install @ssweb-toolkit/comment-core @ssweb-toolkit/comment-angular
 Provide user search for `@` autocomplete:
 
 ```ts
-import { MENTION_USER_SEARCH } from '@ssweb-toolkit/comment-angular';
+import { MENTION_USER_SEARCH } from '@ssfrontend-toolkit/comment-angular';
 
 {
   provide: MENTION_USER_SEARCH,
@@ -46,7 +46,7 @@ Public surface:
 ## Build (this repo)
 
 ```bash
-npm run build -w @ssweb-toolkit/comment-angular
+npm run build -w @ssfrontend-toolkit/comment-angular
 ```
 
 Fixed version group with `comment-core` and `comment-react`. Overview: [root README](../../README.md).

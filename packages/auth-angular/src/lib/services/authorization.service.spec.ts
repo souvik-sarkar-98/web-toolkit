@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { describe, expect, it, beforeEach } from 'vitest';
 import { of, throwError } from 'rxjs';
-import { contextFrom, snapshotFromCurrentUser } from '@ssweb-toolkit/auth-core';
+import { contextFrom, snapshotFromCurrentUser } from '@ssfrontend-toolkit/auth-core';
 import { AuthorizationService } from './authorization.service';
 import { RbacStateService } from './rbac-state.service';
 import { RBAC_DATA_SOURCE } from '../tokens/rbac-data-source.token';

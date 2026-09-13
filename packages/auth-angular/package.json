@@ -1,5 +1,5 @@
 {
-  "name": "@ssweb-toolkit/auth-angular",
+  "name": "@ssfrontend-toolkit/auth-angular",
   "version": "1.0.0",
   "files": [
     "dist"
@@ -15,12 +15,12 @@
     "rxjs": "^7.0.0"
   },
   "dependencies": {
-    "@ssweb-toolkit/auth-core": "*",
+    "@ssfrontend-toolkit/auth-core": "*",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "main": "./dist/fesm2022/ssweb-toolkit-auth-angular.mjs",
-  "types": "./dist/types/ssweb-toolkit-auth-angular.d.ts",
+  "main": "./dist/fesm2022/ssfrontend-toolkit-auth-angular.mjs",
+  "types": "./dist/types/ssfrontend-toolkit-auth-angular.d.ts",
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
     "lint": "tsc --noEmit -p tsconfig.lib.json",
@@ -33,7 +33,7 @@
     "@angular/core": "^21.2.19",
     "@angular/platform-browser": "^21.2.19",
     "@angular/router": "^21.2.19",
-    "@ssweb-toolkit/auth-core": "*",
+    "@ssfrontend-toolkit/auth-core": "*",
     "jsdom": "^26.1.0",
     "ng-packagr": "^21.2.0",
     "rxjs": "^7.4.0",

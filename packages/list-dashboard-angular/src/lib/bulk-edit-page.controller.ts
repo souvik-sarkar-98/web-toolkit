@@ -1,8 +1,8 @@
-import type { FormDefinition, FormValues } from '@ssweb-toolkit/forms-core';
+import type { FormDefinition, FormValues } from '@ssfrontend-toolkit/forms-core';
 import { Subscription } from 'rxjs';
-import { ListFileUpload, RefDataMap } from '@ssweb-toolkit/list-dashboard-core';
-import { ListDetailField } from '@ssweb-toolkit/list-dashboard-core';
-import { BulkEditPageConfig } from '@ssweb-toolkit/list-dashboard-core';
+import { ListFileUpload, RefDataMap } from '@ssfrontend-toolkit/list-dashboard-core';
+import { ListDetailField } from '@ssfrontend-toolkit/list-dashboard-core';
+import { BulkEditPageConfig } from '@ssfrontend-toolkit/list-dashboard-core';
 
 /**
  * Edit-only overlay state for bulk updates — drives a second {@link ListDetailSheetComponent}.

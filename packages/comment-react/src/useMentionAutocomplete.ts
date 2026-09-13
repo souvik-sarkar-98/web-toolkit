@@ -7,8 +7,8 @@ import {
   type KeyboardEvent,
   type RefObject,
 } from 'react';
-import type { MentionCandidate, MentionUserSearch } from '@ssweb-toolkit/comment-core';
-import { getActiveMentionQuery } from '@ssweb-toolkit/comment-core';
+import type { MentionCandidate, MentionUserSearch } from '@ssfrontend-toolkit/comment-core';
+import { getActiveMentionQuery } from '@ssfrontend-toolkit/comment-core';
 
 export interface UseMentionAutocompleteOptions {
   editableText: string;

@@ -1,11 +1,11 @@
-# `@ssweb-toolkit/forms-angular`
+# `@ssfrontend-toolkit/forms-angular`
 
-Angular Material renderer for `@ssweb-toolkit/forms-core`: `cf-form`, `cf-field`, stepper, and `FormEngineService`.
+Angular Material renderer for `@ssfrontend-toolkit/forms-core`: `cf-form`, `cf-field`, stepper, and `FormEngineService`.
 
 ## Install
 
 ```bash
-npm install @ssweb-toolkit/forms-core @ssweb-toolkit/forms-angular
+npm install @ssfrontend-toolkit/forms-core @ssfrontend-toolkit/forms-angular
 ```
 
 **Peers:** Angular `^19 || ^20 || ^21` (`animations`, `cdk`, `common`, `core`, `forms`, `material`). Import a Material theme in the host app.
@@ -13,7 +13,7 @@ npm install @ssweb-toolkit/forms-core @ssweb-toolkit/forms-angular
 ## Setup
 
 ```ts
-import { provideCfFormMaterial } from '@ssweb-toolkit/forms-angular';
+import { provideCfFormMaterial } from '@ssfrontend-toolkit/forms-angular';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideCfFormMaterial()],
@@ -36,7 +36,7 @@ Optional tokens:
 ```
 
 ```ts
-import { FormEngineService } from '@ssweb-toolkit/forms-angular';
+import { FormEngineService } from '@ssfrontend-toolkit/forms-angular';
 
 // Injected per cf-form instance. Use CfField / CfFormStepper for multi-step flows.
 ```
@@ -52,7 +52,7 @@ Public surface:
 ## Build (this repo)
 
 ```bash
-npm run build -w @ssweb-toolkit/forms-angular
+npm run build -w @ssfrontend-toolkit/forms-angular
 ```
 
 Fixed version group with `forms-core` and `forms-react`. Overview: [root README](../../README.md).

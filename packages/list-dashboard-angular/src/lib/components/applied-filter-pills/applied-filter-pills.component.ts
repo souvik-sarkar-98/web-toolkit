@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { AppliedListFilter } from '@ssweb-toolkit/list-dashboard-core';
+import { AppliedListFilter } from '@ssfrontend-toolkit/list-dashboard-core';
 
 @Component({
   selector: 'app-applied-filter-pills',
