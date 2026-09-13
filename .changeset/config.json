@@ -27,6 +27,6 @@
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": [
-  
+    "ssfrontend-toolkit"
   ]
 }
